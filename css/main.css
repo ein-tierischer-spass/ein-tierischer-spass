@@ -199,9 +199,24 @@ main #home #Banner img {
 
 main #home #text {
   width: 80%;
-  margin: 0 auto;
+  margin: 10em auto;
   color: var(--clr-text-light);
   text-align: center;
+}
+
+main #home #text #title {
+  font-weight: 700;
+  font-size: 31pt;
+  margin-bottom: 2em;
+}
+
+main #home #text #body {
+  font-size: 31pt;
+  margin-bottom: 1em;
+}
+
+main #home #text #greetings {
+  font-size: 31pt;
 }
 
 main #aboutus {
