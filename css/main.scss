@@ -190,20 +190,23 @@ main {
 
         #text {
             width: 80%;
-            margin: 0 auto;
+            margin: 10em auto;
             color: var(--clr-text-light);
             text-align: center;
 
             #title {
-                
+                font-weight: 700;
+                font-size: 31pt;
+                margin-bottom: 2em;
             }
 
             #body{
-                
+                font-size: 31pt;
+                margin-bottom: 1em;
             }
 
             #greetings{
-                
+                font-size: 31pt;
             }
         }
     }
