@@ -18,7 +18,7 @@
     --clr-text-light: #fff;
     --clr-background-light: #ffffff;
     --ff-montserrat: 'Montserrat', sans-serif;
-    --fs-standard: 1.125rem;
+    --fs-standard: 0.7em;//1.125rem;
 }
 
 
@@ -47,12 +47,35 @@ section {
     height: 100vh;
     min-height: 100vh;
     width: 100%;
+    display: grid;
 }
 
 img, svg, picture, object {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+.text {
+    width: 80%;
+    margin: 10em auto;
+    color: var(--clr-text-light);
+    text-align: center;
+
+    .title {
+        font-weight: 700;
+        font-size: 21pt;
+        margin-bottom: 2em;
+    }
+
+    .body{
+        font-size: 18pt;
+        margin-bottom: 1em;
+    }
+
+    .greetings{
+        font-size: 18pt;
+    }
 }
 
 /*
@@ -89,8 +112,8 @@ img, svg, picture, object {
             width: 2em;
             height: .2em;
             border-radius: 2px;
-            //background: var(--clr-turquose);
-            background: var(--clr-background-light);
+            background: var(--clr-turquose);
+            //background: var(--clr-background-light);
             position: relative;
             transition: all 400ms ease;
         }
@@ -117,6 +140,7 @@ img, svg, picture, object {
         height: 2em;
         top: .1em;
         left: .5em;
+        background-color: var(--clr-background-header);
     }
 
     nav{
@@ -178,7 +202,7 @@ main {
     #home {
         background: var(--clr-turquose);
         height: auto;
-        padding-bottom: 1em;
+        //padding-bottom: 1em;
 
         #Banner {
             width: 100%;
@@ -187,31 +211,10 @@ main {
                 width: 100%;
             }
         }
-
-        #text {
-            width: 80%;
-            margin: 10em auto;
-            color: var(--clr-text-light);
-            text-align: center;
-
-            #title {
-                font-weight: 700;
-                font-size: 31pt;
-                margin-bottom: 2em;
-            }
-
-            #body{
-                font-size: 31pt;
-                margin-bottom: 1em;
-            }
-
-            #greetings{
-                font-size: 31pt;
-            }
-        }
     }
 
     #aboutus {
         background: var(--clr-yellow);
+        
     }
 }
