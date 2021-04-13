@@ -1,0 +1,214 @@
+/*
+    FONTS
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/*
+    VARIABLES
+*/
+
+:root {
+    --clr-main: #000;
+    --clr-background-header: rgba(255, 255, 255, 0.5);
+    --clr-turquose: #4d938c;
+    --clr-turquose-dark: #387069;
+    --clr-yellow: #eac471;
+    --clr-rose: #ce857a;
+    --clr-text-dark: #000000;
+    --clr-text-light: #fff;
+    --clr-background-light: #ffffff;
+    --ff-montserrat: 'Montserrat', sans-serif;
+    --fs-standard: 1.125rem;
+}
+
+
+/*
+    GLOBAL
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;     // https://www.youtube.com/watch?v=WlGQdgy-M6w
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: var(--ff-montserrat);
+    font-size: var(--fs-standard);
+    font-weight: 400;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+section {
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+}
+
+img, svg, picture, object {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+    HEADER
+*/
+.header-nav{
+    height: auto;
+    width: auto;
+    background: none;
+    //background-color: var(--clr-background-header);
+    z-index: 1000;
+    top: 0;
+    left: 1em;
+    position: fixed;
+
+    a {
+        color: var(--clr-text-dark);
+        text-decoration: none;
+        font-size: 2em;
+    }
+
+    .toggler{
+        display: none;
+    }
+
+    .toggler-label{
+        display: inline-block;
+        margin: 1em;
+
+        span,
+        span::before,
+        span::after{
+            display: block;
+            width: 2em;
+            height: .2em;
+            border-radius: 2px;
+            //background: var(--clr-turquose);
+            background: var(--clr-background-light);
+            position: relative;
+            transition: all 400ms ease;
+        }
+
+        span::before,
+        span::after{
+            content: '';
+            position: absolute;
+        }
+
+        span::before{
+            bottom: 7px;
+        }
+
+        span::after{
+            top: 7px;
+        }
+    }
+
+    .toggler-label::before{
+        content: '';
+        position: absolute;
+        width: 3em;
+        height: 2em;
+        top: .1em;
+        left: .5em;
+    }
+
+    nav{
+        position: static;
+        transform: none;
+        transform: scale(1, 0);
+        transform-origin: top;
+        transition: transform 400ms ease-in-out;
+        background: var(--clr-background-light);
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+        li {
+            a {
+                opacity: 0;
+                padding-top: .5em;
+                padding-bottom: .5em;
+                padding-left: 1em;
+                padding-right: 1em;
+                display: inline-block;
+                transition: opacity 150ms ease-in-out;
+            }
+        }
+    }
+
+    .toggler:checked ~ nav{
+        transform: scale(1, 1);
+    }
+
+    .toggler:checked ~ nav a{
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 250ms;
+    }
+
+    .toggler:checked + .toggler-label {
+        
+        span{
+            transform: rotate(135deg);
+        }
+
+        span::before,
+        span::after{
+            top: 0;
+            transform: rotate(90deg);
+        }
+    }
+}
+
+/*
+ BODY
+*/
+main {
+    background-color: var(--clr-main);
+
+    #home {
+        background: var(--clr-turquose);
+        height: auto;
+        padding-bottom: 1em;
+
+        #Banner {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        #text {
+            width: 80%;
+            margin: 0 auto;
+            color: var(--clr-text-light);
+            text-align: center;
+
+            #title {
+                
+            }
+
+            #body{
+                
+            }
+
+            #greetings{
+                
+            }
+        }
+    }
+
+    #aboutus {
+        background: var(--clr-yellow);
+    }
+}
