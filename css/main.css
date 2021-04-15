@@ -10,7 +10,7 @@
   --clr-background-header: rgba(255, 255, 255, 0.5);
   --clr-turquose: #4d938c;
   --clr-turquose-dark: #387069;
-  --clr-yellow: #eac471;
+  --clr-yellow: #eecd86;
   --clr-rose: #ce857a;
   --clr-text-dark: #000000;
   --clr-text-light: #fff;
@@ -59,16 +59,17 @@ img, svg, picture, object {
   margin: 10em auto;
   color: var(--clr-text-light);
   text-align: center;
+  z-index: 50;
 }
 
 .text .title {
   font-weight: 700;
-  font-size: 21pt;
+  font-size: 30pt;
   margin-bottom: 2em;
 }
 
 .text .body {
-  font-size: 18pt;
+  font-size: 24pt;
   margin-bottom: 1em;
 }
 
@@ -84,9 +85,12 @@ img, svg, picture, object {
   width: auto;
   background: none;
   z-index: 1000;
-  top: 0;
+  top: 1em;
   left: 1em;
   position: fixed;
+  /*
+        Background box behind bars
+    */
 }
 
 .header-nav a {
@@ -102,15 +106,18 @@ img, svg, picture, object {
 .header-nav .toggler-label {
   display: inline-block;
   margin: 1em;
+  /*
+            Size of bars
+        */
 }
 
 .header-nav .toggler-label span,
 .header-nav .toggler-label span::before,
 .header-nav .toggler-label span::after {
   display: block;
-  width: 2em;
-  height: .2em;
-  border-radius: 2px;
+  width: 4em;
+  height: .4em;
+  border-radius: 20%;
   background: var(--clr-turquose);
   position: relative;
   -webkit-transition: all 400ms ease;
@@ -124,20 +131,20 @@ img, svg, picture, object {
 }
 
 .header-nav .toggler-label span::before {
-  bottom: 7px;
+  bottom: 10px;
 }
 
 .header-nav .toggler-label span::after {
-  top: 7px;
+  top: 10px;
 }
 
 .header-nav .toggler-label::before {
   content: '';
   position: absolute;
-  width: 3em;
-  height: 2em;
-  top: .1em;
-  left: .5em;
+  width: 5em;
+  height: 3.1em;
+  top: -.35em;
+  left: .4em;
   background-color: var(--clr-background-header);
 }
 
@@ -223,5 +230,23 @@ main #home #Banner img {
 
 main #aboutus {
   background: var(--clr-yellow);
+}
+
+main #aboutus #bubbles {
+  z-index: 1;
+  max-height: 100%;
+  position: absolute;
+  height: 67%;
+  right: 0;
+  -webkit-transform: translateX(30%);
+          transform: translateX(30%);
+}
+
+main #aboutus #bubbles img {
+  max-height: 100%;
+}
+
+main #aboutus #aboutustext {
+  margin-top: 20%;
 }
 /*# sourceMappingURL=main.css.map */

@@ -12,7 +12,7 @@
     --clr-background-header: rgba(255, 255, 255, 0.5);
     --clr-turquose: #4d938c;
     --clr-turquose-dark: #387069;
-    --clr-yellow: #eac471;
+    --clr-yellow: #eecd86;
     --clr-rose: #ce857a;
     --clr-text-dark: #000000;
     --clr-text-light: #fff;
@@ -61,15 +61,16 @@ img, svg, picture, object {
     margin: 10em auto;
     color: var(--clr-text-light);
     text-align: center;
+    z-index: 50;
 
     .title {
         font-weight: 700;
-        font-size: 21pt;
+        font-size: 30pt;
         margin-bottom: 2em;
     }
 
     .body{
-        font-size: 18pt;
+        font-size: 24pt;
         margin-bottom: 1em;
     }
 
@@ -87,7 +88,7 @@ img, svg, picture, object {
     background: none;
     //background-color: var(--clr-background-header);
     z-index: 1000;
-    top: 0;
+    top: 1em;
     left: 1em;
     position: fixed;
 
@@ -105,13 +106,16 @@ img, svg, picture, object {
         display: inline-block;
         margin: 1em;
 
+        /*
+            Size of bars
+        */
         span,
         span::before,
         span::after{
             display: block;
-            width: 2em;
-            height: .2em;
-            border-radius: 2px;
+            width: 4em;
+            height: .4em;
+            border-radius: 20%;
             background: var(--clr-turquose);
             //background: var(--clr-background-light);
             position: relative;
@@ -125,21 +129,24 @@ img, svg, picture, object {
         }
 
         span::before{
-            bottom: 7px;
+            bottom: 10px;
         }
 
         span::after{
-            top: 7px;
+            top: 10px;
         }
     }
 
+    /*
+        Background box behind bars
+    */
     .toggler-label::before{
         content: '';
         position: absolute;
-        width: 3em;
-        height: 2em;
-        top: .1em;
-        left: .5em;
+        width: 5em;
+        height: 3.1em;
+        top: -.35em;
+        left: .4em;
         background-color: var(--clr-background-header);
     }
 
@@ -215,6 +222,23 @@ main {
 
     #aboutus {
         background: var(--clr-yellow);
+
+        #bubbles {
+            z-index: 1;
+            max-height: 100%;
+            position: absolute;
+            height: 67%;
+            right: 0;
+            transform: translateX(30%);
+
+            img {
+                max-height: 100%;
+            }
+        }
+
+        #aboutustext {
+            margin-top: 20%;
+        }
         
     }
 }
