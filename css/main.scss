@@ -12,11 +12,12 @@
     --clr-background-header: rgba(255, 255, 255, 0.5);
     --clr-turquose: #4d938c;
     --clr-turquose-dark: #387069;
-    --clr-yellow: #eecd86;
+    --clr-yellow: #e9d09c;
     --clr-rose: #ce857a;
     --clr-text-dark: #000000;
     --clr-text-light: #fff;
     --clr-background-light: #ffffff;
+    --clr-ytred: #c4302b;
     --ff-montserrat: 'Montserrat', sans-serif;
     --fs-standard: 0.7em;//1.125rem;
 }
@@ -75,8 +76,12 @@ img, svg, picture, object {
     }
 
     .greetings{
-        font-size: 18pt;
+        font-size: 20pt;
     }
+}
+
+.hidden {
+    display: none;
 }
 
 /*
@@ -117,7 +122,6 @@ img, svg, picture, object {
             height: .4em;
             border-radius: 20%;
             background: var(--clr-turquose);
-            //background: var(--clr-background-light);
             position: relative;
             transition: all 400ms ease;
         }
@@ -218,6 +222,76 @@ main {
                 width: 100%;
             }
         }
+    }
+
+    #ytvid {
+        background: var(--clr-yellow);
+
+        #embeddedvideo {
+            margin: auto;
+            width: 854px;
+            height: 480px;
+        }
+
+        #ytbutton {
+            margin: auto;
+            width: 854px;
+            height: 480px;
+            background: var(--clr-ytred);
+            position: relative;
+            border-radius: 15px;
+
+            .arrow-right {
+                width: 0; 
+                height: 0; 
+                border-top: 80px solid transparent;
+                border-bottom: 80px solid transparent;
+                border-left: 120px solid white;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+
+            p {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 10px;
+            }
+        }
+
+        #yttoast {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 10px;
+            z-index: 999;
+            margin: auto;
+            width: 900px;
+            height: 400px;
+
+            .button {
+                padding: 10px 20px;
+                min-width: 200px;
+                margin: 1em 2em;
+                color: white;
+                display: inline-block;
+                border-radius: 10px;
+            }
+
+            #confirm {
+                background: var(--clr-turquose);
+            }
+
+            #abort {
+                background: var(--clr-ytred);
+            }
+          }
+    }
+
+    #gamelevel {
+        background: var(--clr-turquose);
     }
 
     #aboutus {
