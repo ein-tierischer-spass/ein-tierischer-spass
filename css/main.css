@@ -304,6 +304,59 @@ main #ytvid #yttoast #abort {
 
 main #gamelevel {
   background: var(--clr-turquose);
+  position: relative;
+  display: inline-block;
+}
+
+main #gamelevel .lines {
+  width: 60%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+main #gamelevel #topleft {
+  margin-top: 5em;
+  margin-bottom: 10em;
+}
+
+main #gamelevel #bottomright {
+  margin-bottom: 5em;
+  right: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+main #gamelevel #gameleveltext {
+  text-transform: uppercase;
+  margin: 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+main #gamelevel #gameleveltext .title {
+  margin-bottom: 0;
+}
+
+main #gamelevel #levels {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin-top: 7em;
+}
+
+main #gamelevel #levels .level {
+  width: 20%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
 }
 
 main #aboutus {
@@ -326,5 +379,119 @@ main #aboutus #bubbles img {
 
 main #aboutus #aboutustext {
   margin-top: 20%;
+}
+
+main .gamelevelsec {
+  height: auto;
+}
+
+main .gamelevelsec .levelbanner {
+  width: 80%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+main .gamelevelsec .text {
+  margin: 0 auto;
+}
+
+main .gamelevelsec .text .title {
+  margin: 0;
+}
+
+main .gamelevelsec .text .title:nth-child(1) {
+  margin-bottom: 1em;
+}
+
+main .gamelevelsec .gameframe {
+  background: var(--clr-rose);
+  width: 80%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-bottom: 15em;
+  margin-top: 5em;
+}
+
+main #level1 {
+  background: var(--clr-turquose);
+}
+
+main #level1 #gameframeL1F1 {
+  width: 1000px;
+}
+
+main #level1 #gameframeL1F2 {
+  width: 1000px;
+}
+
+main #level1 #gameframeL1F3 {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: var(--clr-turquose);
+}
+
+main #level1 #gameframeL1F3 iframe {
+  height: 1010px;
+}
+
+main #level1 #gameframeL1F3 .helper {
+  font-size: 4rem;
+  display: -ms-grid;
+  display: grid;
+  position: absolute;
+  height: 1010px;
+  left: 70%;
+}
+
+main #level1 #gameframeL1F3 .helper p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 1em;
+  color: var(--clr-text-light);
+}
+
+main #level2 {
+  background: var(--clr-yellow);
+}
+
+main #level3 {
+  background: var(--clr-rose);
+}
+
+/*
+    FOOTER
+*/
+footer {
+  background: var(--clr-background-header);
+  color: var(--clr-text-dark);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5em;
+  z-index: 1000;
+}
+
+footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.325rem;
+  color: var(--clr-text-dark);
+  margin: 0 2em;
+  font-weight: bold;
+}
+
+footer a:active, footer a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */

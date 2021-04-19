@@ -59,7 +59,52 @@
             </div>
         </section>
         <section id="gamelevel">
-
+            <picture class="lines" id="topleft">
+                <source type="image/webp"
+                        srcset="./images/gestrichelte-linien.webp">
+                <source type="image/png"
+                        srcset="./images/gestrichelte-linien.png">
+                <img src="./images/gestrichelte-linien.png"
+                     alt="gestrichelte Linien"/>
+            </picture>
+            <div class="text" id="gameleveltext">
+                <p class="title">Bist du bereit?</p>
+                <p class="title">Dann wähle einen Schwierigkeitsgrad aus und lege los!</p>
+            </div>
+            <div id="levels">
+                <picture class="level">
+                    <source type="image/webp"
+                            srcset="./images/Auswahl-level1.webp">
+                    <source type="image/png"
+                            srcset="./images/Auswahl-level1.png">
+                    <img src="./images/Auswahl-level1.png"
+                         alt="Schwierigkeitsgrad 1"/>
+                </picture>
+                <picture class="level">
+                    <source type="image/webp"
+                            srcset="./images/Auswahl-level2.webp">
+                    <source type="image/png"
+                            srcset="./images/Auswahl-level2.png">
+                    <img src="./images/Auswahl-level2.png"
+                         alt="Schwierigkeitsgrad 2"/>
+                </picture>
+                <picture class="level">
+                    <source type="image/webp"
+                            srcset="./images/Auswahl-level3.webp">
+                    <source type="image/png"
+                            srcset="./images/Auswahl-level3.png">
+                    <img src="./images/Auswahl-level3.png"
+                         alt="Schwierigkeitsgrad 3"/>
+                </picture>
+            </div>
+            <picture class="lines" id="bottomright">
+                <source type="image/webp"
+                        srcset="./images/gestrichelte-linien.webp">
+                <source type="image/png"
+                        srcset="./images/gestrichelte-linien.png">
+                <img src="./images/gestrichelte-linien.png"
+                     alt="gestrichelte Linien"/>
+            </picture>
         </section>
         <section id="aboutus">
             <picture id="bubbles">
@@ -76,6 +121,70 @@
                 <p class="body">Seit dem Sommer 2020 begeistert uns das Fachgebiet der Pädagogik und des digitalen Lernens. Bereits vor dem Studium hat Bryan als Grundschullehrer in Luxemburg gearbeitet und viel Erfahrung durch die Arbeit mit Kindern gesammelt. Nora ist unsere Gaming-Expertin. Sie weiß, worauf es bei der „User Experience" ankommt. Lizzy ist für die Optik zuständig. Sie arbeitete als Grafikerin und hat viel Erfahrung im Bereich der Gestaltung und Konzeption von Medien. Zusammen haben wir dieses Projekt entwickelt. Wir würden uns über den einen oder anderen Austausch sehr freuen und warten gespannt auf dein Feedback! Viel Spaß beim Entdecken und Lernen!</p>
             </div>
         </section>
+        <section class="gamelevelsec" id="level1">
+            <picture class="levelbanner">
+                <source type="image/webp"
+                        srcset="./images/Banner-level-1.webp">
+                <source type="image/png"
+                        srcset="./images/Banner-level-1.png">
+                <img src="./images/Banner-level-1.png"
+                    alt="Level 1"/>
+            </picture>
+            <div class="text">
+                <p class="title">Spiel Nr. 1</p>
+                <p class="title">???</p>
+                <p class="title">Kannst du den korrekten Anfangsbuchstaben der Tiere finden?</p>
+            </div>
+            <div class="gameframe" id="gameframeL1F1">
+                <iframe src="https://learningapps.org/watch?v=pmo0aqpgn21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+            </div>
+            <div class="text">
+                <p class="title">Spiel Nr. 2</p>
+                <p class="title">Schattenbilder</p>
+                <p class="title">Kannst du den korrekten Anfangsbuchstaben der Tiere finden?</p>
+            </div>
+            <div class="gameframe" id="gameframeL1F2">
+                <iframe src="https://learningapps.org/watch?v=pwpqriwrt21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+            </div>
+            <div class="text">
+                <p class="title">Spiel Nr. 3</p>
+                <p class="title">???</p>
+                <p class="title">???</p>
+            </div>
+            <div class="gameframe" id="gameframeL1F3">
+                <iframe src="https://learningapps.org/watch?v=ptj22p6na21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+                <div class="helper">
+                    <p><- der</p>
+                    <p><- die</p>
+                    <p><- das</p>
+                </div>
+            </div>
+        </section>
+        <section class="gamelevelsec" id="level2">
+            <picture class="levelbanner">
+                <source type="image/webp"
+                        srcset="./images/Banner-level-2.webp">
+                <source type="image/png"
+                        srcset="./images/Banner-level-2.png">
+                <img src="./images/Banner-level-2.png"
+                    alt="Level 2"/>
+            </picture>
+        </section>
+        <section class="gamelevelsec" id="level3">
+            <picture class="levelbanner">
+                <source type="image/webp"
+                        srcset="./images/Banner-level-3.webp">
+                <source type="image/png"
+                        srcset="./images/Banner-level-3.png">
+                <img src="./images/Banner-level-3.png"
+                    alt="Level 3"/>
+            </picture>
+        </section>
     </main>
+    <footer>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a id="lizzy" target="_blank" href="https://elisabeth-jahnke.de">Design by Elisabeth Jahnke</a>
+    </footer>
 </body>
 </html>
