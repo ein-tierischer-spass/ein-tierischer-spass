@@ -219,6 +219,15 @@ img, svg, picture, object {
 */
 main {
   background-color: var(--clr-main);
+  /*
+        LEVEL 1 SPIELE
+    */
+  /*
+        LEVEL 2 SPIELE
+    */
+  /*
+        LEVEL 3 SPIELE
+    */
 }
 
 main #home {
@@ -410,7 +419,7 @@ main .gamelevelsec .gameframe {
   width: 80%;
   -ms-grid-column-align: center;
       justify-self: center;
-  margin-bottom: 15em;
+  margin-bottom: 30em;
   margin-top: 5em;
 }
 
@@ -491,6 +500,10 @@ main #level2 #gameframeL1F2 {
   width: 1000px;
 }
 
+main #level2 #gameframeL1F2 iframe {
+  height: 540px;
+}
+
 main #level2 #gameframeL1F3 {
   width: 1000px;
   display: -webkit-box;
@@ -529,7 +542,7 @@ main #level2 #gameframeL1F5 {
 }
 
 main #level2 #gameframeL1F5 iframe {
-  height: 365px;
+  height: 310px;
 }
 
 main #level2 #gameframeL1F6 {
@@ -554,6 +567,10 @@ main #level3 #gameframeL1F1 {
 
 main #level3 #gameframeL1F2 {
   width: 1000px;
+}
+
+main #level3 #gameframeL1F2 iframe {
+  height: 550px;
 }
 
 main #level3 #gameframeL1F3 {
@@ -594,7 +611,7 @@ main #level3 #gameframeL1F5 {
 }
 
 main #level3 #gameframeL1F5 iframe {
-  height: 365px;
+  height: 395px;
 }
 
 main #level3 #gameframeL1F6 {

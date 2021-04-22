@@ -389,11 +389,14 @@ main {
             background: var(--clr-rose);
             width: 80%;
             justify-self: center;
-            margin-bottom: 15em;
+            margin-bottom: 30em;
             margin-top: 5em;
         }
     }
 
+    /*
+        LEVEL 1 SPIELE
+    */
     #level1 {
         background: var(--clr-turquose);
 
@@ -455,6 +458,9 @@ main {
         }
     }
 
+    /*
+        LEVEL 2 SPIELE
+    */
     #level2 {
         background: var(--clr-yellow);
 
@@ -464,6 +470,10 @@ main {
 
         #gameframeL1F2 {
             width: 1000px;
+
+            iframe {
+                height: 540px;
+            }
         }
 
         #gameframeL1F3 {
@@ -499,7 +509,7 @@ main {
             width: 1000px;
             
             iframe {
-                height: 365px;
+                height: 310px;
             }
         }
 
@@ -515,7 +525,9 @@ main {
             width: 1000px;
         }
     }
-
+    /*
+        LEVEL 3 SPIELE
+    */
     #level3 {
         background: var(--clr-rose);
 
@@ -525,6 +537,10 @@ main {
 
         #gameframeL1F2 {
             width: 1000px;
+
+            iframe {
+                height: 550px;
+            }
         }
 
         #gameframeL1F3 {
@@ -560,7 +576,7 @@ main {
             width: 1000px;
             
             iframe {
-                height: 365px;
+                height: 395px;
             }
         }
 
