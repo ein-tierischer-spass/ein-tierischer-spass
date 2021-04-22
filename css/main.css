@@ -386,7 +386,7 @@ main .gamelevelsec {
 }
 
 main .gamelevelsec .levelbanner {
-  width: 80%;
+  width: 1000px;
   -ms-grid-column-align: center;
       justify-self: center;
   margin-top: 6em;
@@ -455,12 +455,158 @@ main #level1 #gameframeL1F3 .helper p {
   color: var(--clr-text-light);
 }
 
+main #level1 #gameframeL1F4 {
+  width: 1000px;
+}
+
+main #level1 #gameframeL1F5 {
+  width: 1000px;
+}
+
+main #level1 #gameframeL1F5 iframe {
+  height: 365px;
+}
+
+main #level1 #gameframeL1F6 {
+  width: 1000px;
+}
+
+main #level1 #gameframeL1F6 iframe {
+  height: 510px;
+}
+
+main #level1 #gameframeL1F7 {
+  width: 1000px;
+}
+
 main #level2 {
   background: var(--clr-yellow);
 }
 
+main #level2 #gameframeL1F1 {
+  width: 1000px;
+}
+
+main #level2 #gameframeL1F2 {
+  width: 1000px;
+}
+
+main #level2 #gameframeL1F3 {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: var(--clr-turquose);
+}
+
+main #level2 #gameframeL1F3 iframe {
+  height: 1010px;
+}
+
+main #level2 #gameframeL1F3 .helper {
+  font-size: 4rem;
+  display: -ms-grid;
+  display: grid;
+  position: absolute;
+  height: 1010px;
+  left: 70%;
+}
+
+main #level2 #gameframeL1F3 .helper p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 1em;
+  color: var(--clr-text-light);
+}
+
+main #level2 #gameframeL1F4 {
+  width: 1000px;
+}
+
+main #level2 #gameframeL1F5 {
+  width: 1000px;
+}
+
+main #level2 #gameframeL1F5 iframe {
+  height: 365px;
+}
+
+main #level2 #gameframeL1F6 {
+  width: 1000px;
+}
+
+main #level2 #gameframeL1F6 iframe {
+  height: 510px;
+}
+
+main #level2 #gameframeL1F7 {
+  width: 1000px;
+}
+
 main #level3 {
   background: var(--clr-rose);
+}
+
+main #level3 #gameframeL1F1 {
+  width: 1000px;
+}
+
+main #level3 #gameframeL1F2 {
+  width: 1000px;
+}
+
+main #level3 #gameframeL1F3 {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: var(--clr-turquose);
+}
+
+main #level3 #gameframeL1F3 iframe {
+  height: 1010px;
+}
+
+main #level3 #gameframeL1F3 .helper {
+  font-size: 4rem;
+  display: -ms-grid;
+  display: grid;
+  position: absolute;
+  height: 1010px;
+  left: 70%;
+}
+
+main #level3 #gameframeL1F3 .helper p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 1em;
+  color: var(--clr-text-light);
+}
+
+main #level3 #gameframeL1F4 {
+  width: 1000px;
+}
+
+main #level3 #gameframeL1F5 {
+  width: 1000px;
+}
+
+main #level3 #gameframeL1F5 iframe {
+  height: 365px;
+}
+
+main #level3 #gameframeL1F6 {
+  width: 1000px;
+}
+
+main #level3 #gameframeL1F6 iframe {
+  height: 510px;
+}
+
+main #level3 #gameframeL1F7 {
+  width: 1000px;
 }
 
 /*
