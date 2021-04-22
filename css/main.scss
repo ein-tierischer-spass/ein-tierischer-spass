@@ -366,7 +366,8 @@ main {
         height: auto;
         
         .levelbanner {
-            width: 80%;
+            //width: 80%;
+            width: 1000px;
             justify-self: center;
             margin-top: 6em;
             margin-bottom: 6em;
@@ -388,11 +389,14 @@ main {
             background: var(--clr-rose);
             width: 80%;
             justify-self: center;
-            margin-bottom: 15em;
+            margin-bottom: 30em;
             margin-top: 5em;
         }
     }
 
+    /*
+        LEVEL 1 SPIELE
+    */
     #level1 {
         background: var(--clr-turquose);
 
@@ -413,7 +417,7 @@ main {
                 height: 1010px;
             }
 
-            // TODO: make helper as width as gameframeL1F3 + size of der die das and center it!!!
+            // TODO: make helper as width as gameframeL1F3 + size of der die das and center helper!!!
             .helper {
                 font-size: 4rem;
                 display: grid;
@@ -428,14 +432,165 @@ main {
                 }
             }
         }
+
+        #gameframeL1F4 {
+            width: 1000px;
+        }
+
+        #gameframeL1F5 {
+            width: 1000px;
+            
+            iframe {
+                height: 365px;
+            }
+        }
+
+        #gameframeL1F6 {
+            width: 1000px;
+
+            iframe {
+                height:510px;
+            }
+        }
+
+        #gameframeL1F7 {
+            width: 1000px;
+        }
     }
 
+    /*
+        LEVEL 2 SPIELE
+    */
     #level2 {
         background: var(--clr-yellow);
-    }
 
+        #gameframeL1F1 {
+            width: 1000px;
+        }
+
+        #gameframeL1F2 {
+            width: 1000px;
+
+            iframe {
+                height: 540px;
+            }
+        }
+
+        #gameframeL1F3 {
+            width: 1000px;
+            display: flex;
+            background: var(--clr-turquose);
+            
+            iframe {
+                height: 1010px;
+            }
+
+            // TODO: make helper as width as gameframeL1F3 + size of der die das and center helper!!!
+            .helper {
+                font-size: 4rem;
+                display: grid;
+                position: absolute;
+                height: 1010px;
+                left: 70%;
+
+                p {
+                    align-self: center;
+                    margin-left: 1em;
+                    color: var(--clr-text-light);
+                }
+            }
+        }
+
+        #gameframeL1F4 {
+            width: 1000px;
+        }
+
+        #gameframeL1F5 {
+            width: 1000px;
+            
+            iframe {
+                height: 310px;
+            }
+        }
+
+        #gameframeL1F6 {
+            width: 1000px;
+
+            iframe {
+                height:510px;
+            }
+        }
+
+        #gameframeL1F7 {
+            width: 1000px;
+        }
+    }
+    /*
+        LEVEL 3 SPIELE
+    */
     #level3 {
         background: var(--clr-rose);
+
+        #gameframeL1F1 {
+            width: 1000px;
+        }
+
+        #gameframeL1F2 {
+            width: 1000px;
+
+            iframe {
+                height: 550px;
+            }
+        }
+
+        #gameframeL1F3 {
+            width: 1000px;
+            display: flex;
+            background: var(--clr-turquose);
+            
+            iframe {
+                height: 1010px;
+            }
+
+            // TODO: make helper as width as gameframeL1F3 + size of der die das and center helper!!!
+            .helper {
+                font-size: 4rem;
+                display: grid;
+                position: absolute;
+                height: 1010px;
+                left: 70%;
+
+                p {
+                    align-self: center;
+                    margin-left: 1em;
+                    color: var(--clr-text-light);
+                }
+            }
+        }
+
+        #gameframeL1F4 {
+            width: 1000px;
+        }
+
+        #gameframeL1F5 {
+            width: 1000px;
+            
+            iframe {
+                height: 395px;
+            }
+        }
+
+        #gameframeL1F6 {
+            width: 1000px;
+
+            iframe {
+                height:510px;
+            }
+        }
+
+        #gameframeL1F7 {
+            width: 1000px;
+        }
     }
 }
 
