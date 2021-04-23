@@ -417,13 +417,12 @@ main {
                 height: 1010px;
             }
 
-            // TODO: make helper as width as gameframeL1F3 + size of der die das and center helper!!!
             .helper {
                 font-size: 4rem;
                 display: grid;
                 position: absolute;
                 height: 1010px;
-                left: 70%;
+                left: calc(((100% - 1000px) / 2) + 1000px);
 
                 p {
                     align-self: center;
@@ -485,13 +484,12 @@ main {
                 height: 1010px;
             }
 
-            // TODO: make helper as width as gameframeL1F3 + size of der die das and center helper!!!
             .helper {
                 font-size: 4rem;
                 display: grid;
                 position: absolute;
                 height: 1010px;
-                left: 70%;
+                left: calc(((100% - 1000px) / 2) + 1000px);
 
                 p {
                     align-self: center;
@@ -552,13 +550,12 @@ main {
                 height: 1010px;
             }
 
-            // TODO: make helper as width as gameframeL1F3 + size of der die das and center helper!!!
             .helper {
                 font-size: 4rem;
                 display: grid;
                 position: absolute;
                 height: 1010px;
-                left: 70%;
+                left: calc(((100% - 1000px) / 2) + 1000px);
 
                 p {
                     align-self: center;

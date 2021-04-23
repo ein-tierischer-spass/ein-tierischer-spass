@@ -453,7 +453,7 @@ main #level1 #gameframeL1F3 .helper {
   display: grid;
   position: absolute;
   height: 1010px;
-  left: 70%;
+  left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
 main #level1 #gameframeL1F3 .helper p {
@@ -522,7 +522,7 @@ main #level2 #gameframeL1F3 .helper {
   display: grid;
   position: absolute;
   height: 1010px;
-  left: 70%;
+  left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
 main #level2 #gameframeL1F3 .helper p {
@@ -591,7 +591,7 @@ main #level3 #gameframeL1F3 .helper {
   display: grid;
   position: absolute;
   height: 1010px;
-  left: 70%;
+  left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
 main #level3 #gameframeL1F3 .helper p {
