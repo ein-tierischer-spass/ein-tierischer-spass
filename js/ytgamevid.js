@@ -13,6 +13,7 @@ function embedGameVideo(id) {
     var confirmation = document.getElementById(id+"-confirmation");
 
     confirmation.classList.add("hidden");
+    iframe.classList.remove("hidden");
     iframe.setAttribute("src", "https://www.youtube-nocookie.com/embed/"+iframe.dataset.id);
 }
 

@@ -82,6 +82,18 @@ img, svg, picture, object {
   display: none;
 }
 
+.gameloader {
+  padding: 2em;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0 auto;
+  border: 2px solid white;
+  width: 100%;
+}
+
 .ytgamevid {
   margin: 3em auto;
   background: var(--clr-rose);
@@ -89,6 +101,7 @@ img, svg, picture, object {
   height: 563px;
   position: relative;
   border-radius: 15px;
+  border: 2px solid white;
 }
 
 .ytgamevid .text {
@@ -122,6 +135,7 @@ img, svg, picture, object {
   color: #fff;
   text-align: center;
   border-radius: 10px;
+  border: 2px solid white;
   margin: auto;
   width: 100%;
   height: 100%;
@@ -169,6 +183,8 @@ img, svg, picture, object {
 .ytgamevid iframe {
   width: 100%;
   height: 100%;
+  border-radius: 15px;
+  border: 2px solid white;
 }
 
 /*
@@ -348,6 +364,7 @@ main #ytvid #ytbutton {
   background: var(--clr-rose);
   position: relative;
   border-radius: 15px;
+  border: 2px solid white;
 }
 
 main #ytvid #ytbutton .arrow-right {
@@ -376,6 +393,7 @@ main #ytvid #yttoast {
   color: #fff;
   text-align: center;
   border-radius: 10px;
+  border: 2px solid white;
   z-index: 999;
   margin: auto;
   width: 900px;
@@ -528,7 +546,6 @@ main #level1 #gameframeL1F3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: var(--clr-turquose);
 }
 
 main #level1 #gameframeL1F3 iframe {
@@ -580,31 +597,30 @@ main #level2 {
   background: var(--clr-yellow);
 }
 
-main #level2 #gameframeL1F1 {
+main #level2 #gameframeL2F1 {
   width: 1000px;
 }
 
-main #level2 #gameframeL1F2 {
+main #level2 #gameframeL2F2 {
   width: 1000px;
 }
 
-main #level2 #gameframeL1F2 iframe {
+main #level2 #gameframeL2F2 iframe {
   height: 540px;
 }
 
-main #level2 #gameframeL1F3 {
+main #level2 #gameframeL2F3 {
   width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: var(--clr-turquose);
 }
 
-main #level2 #gameframeL1F3 iframe {
+main #level2 #gameframeL2F3 iframe {
   height: 1010px;
 }
 
-main #level2 #gameframeL1F3 .helper {
+main #level2 #gameframeL2F3 .helper {
   font-size: 4rem;
   display: -ms-grid;
   display: grid;
@@ -613,7 +629,7 @@ main #level2 #gameframeL1F3 .helper {
   left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
-main #level2 #gameframeL1F3 .helper p {
+main #level2 #gameframeL2F3 .helper p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -621,27 +637,27 @@ main #level2 #gameframeL1F3 .helper p {
   color: var(--clr-text-light);
 }
 
-main #level2 #gameframeL1F4 {
+main #level2 #gameframeL2F4 {
   width: 1000px;
 }
 
-main #level2 #gameframeL1F5 {
+main #level2 #gameframeL2F5 {
   width: 1000px;
 }
 
-main #level2 #gameframeL1F5 iframe {
+main #level2 #gameframeL2F5 iframe {
   height: 310px;
 }
 
-main #level2 #gameframeL1F6 {
+main #level2 #gameframeL2F6 {
   width: 1000px;
 }
 
-main #level2 #gameframeL1F6 iframe {
+main #level2 #gameframeL2F6 iframe {
   height: 510px;
 }
 
-main #level2 #gameframeL1F7 {
+main #level2 #gameframeL2F7 {
   width: 1000px;
 }
 
@@ -649,31 +665,30 @@ main #level3 {
   background: var(--clr-rose);
 }
 
-main #level3 #gameframeL1F1 {
+main #level3 #gameframeL3F1 {
   width: 1000px;
 }
 
-main #level3 #gameframeL1F2 {
+main #level3 #gameframeL3F2 {
   width: 1000px;
 }
 
-main #level3 #gameframeL1F2 iframe {
+main #level3 #gameframeL3F2 iframe {
   height: 550px;
 }
 
-main #level3 #gameframeL1F3 {
+main #level3 #gameframeL3F3 {
   width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: var(--clr-turquose);
 }
 
-main #level3 #gameframeL1F3 iframe {
+main #level3 #gameframeL3F3 iframe {
   height: 1010px;
 }
 
-main #level3 #gameframeL1F3 .helper {
+main #level3 #gameframeL3F3 .helper {
   font-size: 4rem;
   display: -ms-grid;
   display: grid;
@@ -682,7 +697,7 @@ main #level3 #gameframeL1F3 .helper {
   left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
-main #level3 #gameframeL1F3 .helper p {
+main #level3 #gameframeL3F3 .helper p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -690,27 +705,27 @@ main #level3 #gameframeL1F3 .helper p {
   color: var(--clr-text-light);
 }
 
-main #level3 #gameframeL1F4 {
+main #level3 #gameframeL3F4 {
   width: 1000px;
 }
 
-main #level3 #gameframeL1F5 {
+main #level3 #gameframeL3F5 {
   width: 1000px;
 }
 
-main #level3 #gameframeL1F5 iframe {
+main #level3 #gameframeL3F5 iframe {
   height: 395px;
 }
 
-main #level3 #gameframeL1F6 {
+main #level3 #gameframeL3F6 {
   width: 1000px;
 }
 
-main #level3 #gameframeL1F6 iframe {
+main #level3 #gameframeL3F6 iframe {
   height: 510px;
 }
 
-main #level3 #gameframeL1F7 {
+main #level3 #gameframeL3F7 {
   width: 1000px;
 }
 

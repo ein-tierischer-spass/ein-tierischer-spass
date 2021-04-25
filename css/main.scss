@@ -85,6 +85,16 @@ img, svg, picture, object {
     display: none;
 }
 
+.gameloader {
+    padding: 2em;
+    height: 500px;
+    display: grid;
+    align-content: center;
+    margin: 0 auto;
+    border: 2px solid white;
+    width: 100%;
+}
+
 .ytgamevid {
     margin: 3em auto;
     background: var(--clr-rose);
@@ -92,6 +102,7 @@ img, svg, picture, object {
     height: 563px;
     position: relative;
     border-radius: 15px;
+    border: 2px solid white;
 
     .text {
         width: 100%;
@@ -122,6 +133,7 @@ img, svg, picture, object {
         color: #fff;
         text-align: center;
         border-radius: 10px;
+        border: 2px solid white;
         margin: auto;
         width: 100%;
         height: 100%;
@@ -168,6 +180,8 @@ img, svg, picture, object {
     iframe {
         width: 100%;
         height: 100%;
+        border-radius: 15px;
+        border: 2px solid white;
         //display: none;
     }
 }
@@ -328,6 +342,7 @@ main {
             background: var(--clr-rose);
             position: relative;
             border-radius: 15px;
+            border: 2px solid white;
 
             .arrow-right {
                 width: 0; 
@@ -354,6 +369,7 @@ main {
             color: #fff;
             text-align: center;
             border-radius: 10px;
+            border: 2px solid white;
             z-index: 999;
             margin: auto;
             width: 900px;
@@ -498,7 +514,7 @@ main {
         #gameframeL1F3 {
             width: 1000px;
             display: flex;
-            background: var(--clr-turquose);
+            //background: var(--clr-turquose);
             
             iframe {
                 height: 1010px;
@@ -550,11 +566,11 @@ main {
     #level2 {
         background: var(--clr-yellow);
 
-        #gameframeL1F1 {
+        #gameframeL2F1 {
             width: 1000px;
         }
 
-        #gameframeL1F2 {
+        #gameframeL2F2 {
             width: 1000px;
 
             iframe {
@@ -562,10 +578,10 @@ main {
             }
         }
 
-        #gameframeL1F3 {
+        #gameframeL2F3 {
             width: 1000px;
             display: flex;
-            background: var(--clr-turquose);
+            //background: var(--clr-turquose);
             
             iframe {
                 height: 1010px;
@@ -586,11 +602,11 @@ main {
             }
         }
 
-        #gameframeL1F4 {
+        #gameframeL2F4 {
             width: 1000px;
         }
 
-        #gameframeL1F5 {
+        #gameframeL2F5 {
             width: 1000px;
             
             iframe {
@@ -598,7 +614,7 @@ main {
             }
         }
 
-        #gameframeL1F6 {
+        #gameframeL2F6 {
             width: 1000px;
 
             iframe {
@@ -606,7 +622,7 @@ main {
             }
         }
 
-        #gameframeL1F7 {
+        #gameframeL2F7 {
             width: 1000px;
         }
     }
@@ -616,11 +632,11 @@ main {
     #level3 {
         background: var(--clr-rose);
 
-        #gameframeL1F1 {
+        #gameframeL3F1 {
             width: 1000px;
         }
 
-        #gameframeL1F2 {
+        #gameframeL3F2 {
             width: 1000px;
 
             iframe {
@@ -628,10 +644,10 @@ main {
             }
         }
 
-        #gameframeL1F3 {
+        #gameframeL3F3 {
             width: 1000px;
             display: flex;
-            background: var(--clr-turquose);
+            //background: var(--clr-turquose);
             
             iframe {
                 height: 1010px;
@@ -652,11 +668,11 @@ main {
             }
         }
 
-        #gameframeL1F4 {
+        #gameframeL3F4 {
             width: 1000px;
         }
 
-        #gameframeL1F5 {
+        #gameframeL3F5 {
             width: 1000px;
             
             iframe {
@@ -664,7 +680,7 @@ main {
             }
         }
 
-        #gameframeL1F6 {
+        #gameframeL3F6 {
             width: 1000px;
 
             iframe {
@@ -672,7 +688,7 @@ main {
             }
         }
 
-        #gameframeL1F7 {
+        #gameframeL3F7 {
             width: 1000px;
         }
     }
