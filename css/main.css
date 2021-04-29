@@ -533,6 +533,15 @@ main #level1 {
   background: var(--clr-turquose);
 }
 
+main #level1 #gameframeL1F0 {
+  width: 1000px;
+  height: 1000px;
+}
+
+main #level1 #gameframeL1F0 .gameloader {
+  height: 1000px;
+}
+
 main #level1 #gameframeL1F1 {
   width: 1000px;
 }
