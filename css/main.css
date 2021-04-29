@@ -606,6 +606,15 @@ main #level2 {
   background: var(--clr-yellow);
 }
 
+main #level2 #gameframeL2F0 {
+  width: 1000px;
+  height: 1000px;
+}
+
+main #level2 #gameframeL2F0 .gameloader {
+  height: 1000px;
+}
+
 main #level2 #gameframeL2F1 {
   width: 1000px;
 }
