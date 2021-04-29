@@ -683,6 +683,15 @@ main #level3 {
   background: var(--clr-rose);
 }
 
+main #level3 #gameframeL3F0 {
+  width: 1000px;
+  height: 1000px;
+}
+
+main #level3 #gameframeL3F0 .gameloader {
+  height: 1000px;
+}
+
 main #level3 #gameframeL3F1 {
   width: 1000px;
 }
