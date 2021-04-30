@@ -542,7 +542,7 @@ main #level1 #gameframeL1F1 .gameloader {
   height: 1000px;
 }
 
-main #level1 #gameframeL1F1 {
+main #level1 #gameframeL1F2 {
   width: 1000px;
 }
 
@@ -615,7 +615,7 @@ main #level2 #gameframeL2F1 .gameloader {
   height: 1000px;
 }
 
-main #level2 #gameframeL2F1 {
+main #level2 #gameframeL2F2 {
   width: 1000px;
 }
 
@@ -692,7 +692,7 @@ main #level3 #gameframeL3F1 .gameloader {
   height: 1000px;
 }
 
-main #level3 #gameframeL3F1 {
+main #level3 #gameframeL3F2 {
   width: 1000px;
 }
 
