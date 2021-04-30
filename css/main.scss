@@ -499,7 +499,7 @@ main {
     #level1 {
         background: var(--clr-turquose);
 
-        #gameframeL1F0 {
+        #gameframeL1F1 {
             width: 1000px;
             height: 1000px;
 
@@ -508,15 +508,15 @@ main {
             }
         }
         
-        #gameframeL1F1 {
-            width: 1000px;
-        }
-
         #gameframeL1F2 {
             width: 1000px;
         }
 
         #gameframeL1F3 {
+            width: 1000px;
+        }
+
+        #gameframeL1F4 {
             width: 1000px;
             display: flex;
             //background: var(--clr-turquose);
@@ -540,19 +540,23 @@ main {
             }
         }
 
-        #gameframeL1F4 {
-            width: 1000px;
-        }
-
         #gameframeL1F5 {
             width: 1000px;
-            
-            iframe {
-                height: 365px;
-            }
         }
 
         #gameframeL1F6 {
+            width: 1000px;
+        }
+
+        #gameframeL1F7 {
+            width: 1000px;
+            
+            iframe {
+                height: 450px;
+            }
+        }
+
+        #gameframeL1F8 {
             width: 1000px;
 
             iframe {
@@ -560,7 +564,7 @@ main {
             }
         }
 
-        #gameframeL1F7 {
+        #gameframeL1F9 {
             width: 1000px;
         }
     }
@@ -571,7 +575,7 @@ main {
     #level2 {
         background: var(--clr-yellow);
 
-        #gameframeL2F0 {
+        #gameframeL2F1 {
             width: 1000px;
             height: 1000px;
 
@@ -580,11 +584,11 @@ main {
             }
         }
 
-        #gameframeL2F1 {
+        #gameframeL2F2 {
             width: 1000px;
         }
 
-        #gameframeL2F2 {
+        #gameframeL2F3 {
             width: 1000px;
 
             iframe {
@@ -592,7 +596,7 @@ main {
             }
         }
 
-        #gameframeL2F3 {
+        #gameframeL2F4 {
             width: 1000px;
             display: flex;
             //background: var(--clr-turquose);
@@ -616,19 +620,23 @@ main {
             }
         }
 
-        #gameframeL2F4 {
-            width: 1000px;
-        }
-
         #gameframeL2F5 {
             width: 1000px;
-            
-            iframe {
-                height: 310px;
-            }
         }
 
         #gameframeL2F6 {
+            width: 1000px;
+        }
+
+        #gameframeL2F7 {
+            width: 1000px;
+            
+            iframe {
+                height: 450px;
+            }
+        }
+
+        #gameframeL2F8 {
             width: 1000px;
 
             iframe {
@@ -636,7 +644,7 @@ main {
             }
         }
 
-        #gameframeL2F7 {
+        #gameframeL2F9 {
             width: 1000px;
         }
     }
@@ -646,7 +654,7 @@ main {
     #level3 {
         background: var(--clr-rose);
 
-        #gameframeL3F0 {
+        #gameframeL3F1 {
             width: 1000px;
             height: 1000px;
 
@@ -655,11 +663,11 @@ main {
             }
         }
 
-        #gameframeL3F1 {
+        #gameframeL3F2 {
             width: 1000px;
         }
 
-        #gameframeL3F2 {
+        #gameframeL3F3 {
             width: 1000px;
 
             iframe {
@@ -667,7 +675,7 @@ main {
             }
         }
 
-        #gameframeL3F3 {
+        #gameframeL3F4 {
             width: 1000px;
             display: flex;
             //background: var(--clr-turquose);
@@ -691,19 +699,23 @@ main {
             }
         }
 
-        #gameframeL3F4 {
-            width: 1000px;
-        }
-
         #gameframeL3F5 {
             width: 1000px;
-            
-            iframe {
-                height: 395px;
-            }
         }
 
         #gameframeL3F6 {
+            width: 1000px;
+        }
+
+        #gameframeL3F7 {
+            width: 1000px;
+            
+            iframe {
+                height: 450px;
+            }
+        }
+
+        #gameframeL3F8 {
             width: 1000px;
 
             iframe {
@@ -711,7 +723,7 @@ main {
             }
         }
 
-        #gameframeL3F7 {
+        #gameframeL3F9 {
             width: 1000px;
         }
     }

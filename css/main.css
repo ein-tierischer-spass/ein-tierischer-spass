@@ -533,17 +533,13 @@ main #level1 {
   background: var(--clr-turquose);
 }
 
-main #level1 #gameframeL1F0 {
-  width: 1000px;
-  height: 1000px;
-}
-
-main #level1 #gameframeL1F0 .gameloader {
-  height: 1000px;
-}
-
 main #level1 #gameframeL1F1 {
   width: 1000px;
+  height: 1000px;
+}
+
+main #level1 #gameframeL1F1 .gameloader {
+  height: 1000px;
 }
 
 main #level1 #gameframeL1F2 {
@@ -552,16 +548,20 @@ main #level1 #gameframeL1F2 {
 
 main #level1 #gameframeL1F3 {
   width: 1000px;
+}
+
+main #level1 #gameframeL1F4 {
+  width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main #level1 #gameframeL1F3 iframe {
+main #level1 #gameframeL1F4 iframe {
   height: 1010px;
 }
 
-main #level1 #gameframeL1F3 .helper {
+main #level1 #gameframeL1F4 .helper {
   font-size: 4rem;
   display: -ms-grid;
   display: grid;
@@ -570,7 +570,7 @@ main #level1 #gameframeL1F3 .helper {
   left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
-main #level1 #gameframeL1F3 .helper p {
+main #level1 #gameframeL1F4 .helper p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -578,27 +578,31 @@ main #level1 #gameframeL1F3 .helper p {
   color: var(--clr-text-light);
 }
 
-main #level1 #gameframeL1F4 {
-  width: 1000px;
-}
-
 main #level1 #gameframeL1F5 {
   width: 1000px;
-}
-
-main #level1 #gameframeL1F5 iframe {
-  height: 365px;
 }
 
 main #level1 #gameframeL1F6 {
   width: 1000px;
 }
 
-main #level1 #gameframeL1F6 iframe {
+main #level1 #gameframeL1F7 {
+  width: 1000px;
+}
+
+main #level1 #gameframeL1F7 iframe {
+  height: 450px;
+}
+
+main #level1 #gameframeL1F8 {
+  width: 1000px;
+}
+
+main #level1 #gameframeL1F8 iframe {
   height: 510px;
 }
 
-main #level1 #gameframeL1F7 {
+main #level1 #gameframeL1F9 {
   width: 1000px;
 }
 
@@ -606,39 +610,39 @@ main #level2 {
   background: var(--clr-yellow);
 }
 
-main #level2 #gameframeL2F0 {
-  width: 1000px;
-  height: 1000px;
-}
-
-main #level2 #gameframeL2F0 .gameloader {
-  height: 1000px;
-}
-
 main #level2 #gameframeL2F1 {
   width: 1000px;
+  height: 1000px;
+}
+
+main #level2 #gameframeL2F1 .gameloader {
+  height: 1000px;
 }
 
 main #level2 #gameframeL2F2 {
   width: 1000px;
 }
 
-main #level2 #gameframeL2F2 iframe {
+main #level2 #gameframeL2F3 {
+  width: 1000px;
+}
+
+main #level2 #gameframeL2F3 iframe {
   height: 540px;
 }
 
-main #level2 #gameframeL2F3 {
+main #level2 #gameframeL2F4 {
   width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main #level2 #gameframeL2F3 iframe {
+main #level2 #gameframeL2F4 iframe {
   height: 1010px;
 }
 
-main #level2 #gameframeL2F3 .helper {
+main #level2 #gameframeL2F4 .helper {
   font-size: 4rem;
   display: -ms-grid;
   display: grid;
@@ -647,7 +651,7 @@ main #level2 #gameframeL2F3 .helper {
   left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
-main #level2 #gameframeL2F3 .helper p {
+main #level2 #gameframeL2F4 .helper p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -655,27 +659,31 @@ main #level2 #gameframeL2F3 .helper p {
   color: var(--clr-text-light);
 }
 
-main #level2 #gameframeL2F4 {
-  width: 1000px;
-}
-
 main #level2 #gameframeL2F5 {
   width: 1000px;
-}
-
-main #level2 #gameframeL2F5 iframe {
-  height: 310px;
 }
 
 main #level2 #gameframeL2F6 {
   width: 1000px;
 }
 
-main #level2 #gameframeL2F6 iframe {
+main #level2 #gameframeL2F7 {
+  width: 1000px;
+}
+
+main #level2 #gameframeL2F7 iframe {
+  height: 450px;
+}
+
+main #level2 #gameframeL2F8 {
+  width: 1000px;
+}
+
+main #level2 #gameframeL2F8 iframe {
   height: 510px;
 }
 
-main #level2 #gameframeL2F7 {
+main #level2 #gameframeL2F9 {
   width: 1000px;
 }
 
@@ -683,39 +691,39 @@ main #level3 {
   background: var(--clr-rose);
 }
 
-main #level3 #gameframeL3F0 {
-  width: 1000px;
-  height: 1000px;
-}
-
-main #level3 #gameframeL3F0 .gameloader {
-  height: 1000px;
-}
-
 main #level3 #gameframeL3F1 {
   width: 1000px;
+  height: 1000px;
+}
+
+main #level3 #gameframeL3F1 .gameloader {
+  height: 1000px;
 }
 
 main #level3 #gameframeL3F2 {
   width: 1000px;
 }
 
-main #level3 #gameframeL3F2 iframe {
+main #level3 #gameframeL3F3 {
+  width: 1000px;
+}
+
+main #level3 #gameframeL3F3 iframe {
   height: 550px;
 }
 
-main #level3 #gameframeL3F3 {
+main #level3 #gameframeL3F4 {
   width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main #level3 #gameframeL3F3 iframe {
+main #level3 #gameframeL3F4 iframe {
   height: 1010px;
 }
 
-main #level3 #gameframeL3F3 .helper {
+main #level3 #gameframeL3F4 .helper {
   font-size: 4rem;
   display: -ms-grid;
   display: grid;
@@ -724,7 +732,7 @@ main #level3 #gameframeL3F3 .helper {
   left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
-main #level3 #gameframeL3F3 .helper p {
+main #level3 #gameframeL3F4 .helper p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -732,27 +740,31 @@ main #level3 #gameframeL3F3 .helper p {
   color: var(--clr-text-light);
 }
 
-main #level3 #gameframeL3F4 {
-  width: 1000px;
-}
-
 main #level3 #gameframeL3F5 {
   width: 1000px;
-}
-
-main #level3 #gameframeL3F5 iframe {
-  height: 395px;
 }
 
 main #level3 #gameframeL3F6 {
   width: 1000px;
 }
 
-main #level3 #gameframeL3F6 iframe {
+main #level3 #gameframeL3F7 {
+  width: 1000px;
+}
+
+main #level3 #gameframeL3F7 iframe {
+  height: 450px;
+}
+
+main #level3 #gameframeL3F8 {
+  width: 1000px;
+}
+
+main #level3 #gameframeL3F8 iframe {
   height: 510px;
 }
 
-main #level3 #gameframeL3F7 {
+main #level3 #gameframeL3F9 {
   width: 1000px;
 }
 

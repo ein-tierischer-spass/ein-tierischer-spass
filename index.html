@@ -23,9 +23,9 @@
             <ul class="nav">
                 <li><a href="index.html#home">HOME</a> </li>
                 <li><a href="index.html#aboutus">Über uns</a> </li>
-                <li><a href="level1.html">Level 1</a> </li>
-                <li><a href="level2.html">Level 2</a> </li>
-                <li><a href="level3.html">Level 3</a> </li>
+                <li><a href="index.html#level1">Level 1</a> </li>
+                <li><a href="index.html#level2">Level 2</a> </li>
+                <li><a href="index.html#level3">Level 3</a> </li>
                 <li><a href="impressum.html">Impressum</a> </li>
                 <li><a href="datenschutz.html">Datenschutz</a> </li>
             </ul>
@@ -160,36 +160,36 @@
 
     <!--
         ################################################################################################
-        #           S P I E L  0                                                                       #
+        #           S P I E L  1                                                                       #
         ################################################################################################
     -->
     <div class="text">
         <p class="title">Spiel Nr. 1</p>
-        <p class="title">Anlautton</p>
+        <p class="title">Paare finden</p>
         <p class="title">Kannst du alle Anlaute zuweisen?</p>
     </div>
     
-    <div class="ytgamevid" id="ytgamevid-l1s0">
-        <div class="text" id="l1s0-text" onclick="getGameVideoConfirmation('l1s0');">
+    <div class="ytgamevid" id="ytgamevid-l1s1">
+        <div class="text" id="l1s1-text" onclick="getGameVideoConfirmation('l1s1');">
             <div class="arrow-right"></div>
             <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
         </div>
-        <div class="confirmation hidden" id="l1s0-confirmation">
+        <div class="confirmation hidden" id="l1s1-confirmation">
             <div class="text">
                 <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
-                <div class="btn" id="confirm" onclick="embedGameVideo('l1s0');">
+                <div class="btn" id="confirm" onclick="embedGameVideo('l1s1');">
                     <p class="buttontext">Ja, bitte :)</p>
                 </div>
-                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l1s0');">
+                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l1s1');">
                     <p class="buttontext">Nein, danke :(</p>
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l1s0-iframe" data-id="1YBcg6m-l4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l1s1-iframe" data-id="1YBcg6m-l4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class="gameframe" id="gameframeL1F0">
-        <div class="gameloader" onclick="loadGame('gameframeL1F0');">
+    <div class="gameframe" id="gameframeL1F1">
+        <div class="gameloader" onclick="loadGame('gameframeL1F1');">
             <div class="text">
                 <p class="body">
                     Klicke hier um das Spiel zu laden.
@@ -204,58 +204,15 @@
 
     <!--
         ################################################################################################
-        #           S P I E L  1                                                                       #
-        ################################################################################################
-    -->
-            <div class="text">
-                <p class="title">Spiel Nr. 1</p>
-                <p class="title">Schattenbilder</p>
-                <p class="title">Welches Tier kannst du sehen?</p>
-            </div>
-            
-            <div class="ytgamevid" id="ytgamevid-l1s1">
-                <div class="text" id="l1s1-text" onclick="getGameVideoConfirmation('l1s1');">
-                    <div class="arrow-right"></div>
-                    <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
-                </div>
-                <div class="confirmation hidden" id="l1s1-confirmation">
-                    <div class="text">
-                        <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
-                        <div class="btn" id="confirm" onclick="embedGameVideo('l1s1');">
-                            <p class="buttontext">Ja, bitte :)</p>
-                        </div>
-                        <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l1s1');">
-                            <p class="buttontext">Nein, danke :(</p>
-                        </div>
-                    </div>
-                </div>
-                <iframe class="hidden" id="l1s1-iframe" data-id="1YBcg6m-l4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-            <div class="gameframe" id="gameframeL1F1">
-                <div class="gameloader" onclick="loadGame('gameframeL1F1');">
-                    <div class="text">
-                        <p class="body">
-                            Klicke hier um das Spiel zu laden.
-                        </p>
-                        <p class="title">
-                            SPIEL STARTEN
-                        </p>
-                    </div>
-                </div>
-                <iframe class="hidden" data-src="https://learningapps.org/watch?v=pmo0aqpgn21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-            </div>
-    <!--
-        ################################################################################################
         #           S P I E L  2                                                                       #
         ################################################################################################
     -->
             <div class="text">
                 <p class="title">Spiel Nr. 2</p>
-                <p class="title">Memory</p>
-                <p class="title">Welche Karten passen zusammen?</p>
+                <p class="title">Schattenbilder</p>
+                <p class="title">Welches Tier kannst du sehen?</p>
             </div>
-
+            
             <div class="ytgamevid" id="ytgamevid-l1s2">
                 <div class="text" id="l1s2-text" onclick="getGameVideoConfirmation('l1s2');">
                     <div class="arrow-right"></div>
@@ -272,7 +229,7 @@
                         </div>
                     </div>
                 </div>
-                <iframe class="hidden" id="l1s2-iframe" data-id="NJVGSiXg_C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="hidden" id="l1s2-iframe" data-id="1YBcg6m-l4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="gameframe" id="gameframeL1F2">
@@ -286,7 +243,7 @@
                         </p>
                     </div>
                 </div>
-                <iframe class="hidden" data-src="https://learningapps.org/watch?v=pwpqriwrt21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+                <iframe class="hidden" data-src="https://learningapps.org/watch?v=pmo0aqpgn21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
             </div>
     <!--
         ################################################################################################
@@ -295,8 +252,8 @@
     -->
             <div class="text">
                 <p class="title">Spiel Nr. 3</p>
-                <p class="title">der - die - das</p>
-                <p class="title">Welcher Artikel gehört zu welchem Tier?</p>
+                <p class="title">Tier-Memory</p>
+                <p class="title">Welche Karten passen zusammen?</p>
             </div>
 
             <div class="ytgamevid" id="ytgamevid-l1s3">
@@ -315,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-                <iframe class="hidden" id="l1s3-iframe" data-id="YiRmEvL2AfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="hidden" id="l1s3-iframe" data-id="NJVGSiXg_C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="gameframe" id="gameframeL1F3">
@@ -329,12 +286,7 @@
                         </p>
                     </div>
                 </div>
-                <iframe class="hidden" data-src="https://learningapps.org/watch?v=ptj22p6na21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-                <div class="hidden">
-                    <p>&#8636; der</p>
-                    <p>&#8592; die</p>
-                    <p>&#8637; das</p>
-                </div>
+                <iframe class="hidden" data-src="https://learningapps.org/watch?v=pwpqriwrt21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
             </div>
     <!--
         ################################################################################################
@@ -343,8 +295,8 @@
     -->
             <div class="text">
                 <p class="title">Spiel Nr. 4</p>
-                <p class="title">Buchstabengitter</p>
-                <p class="title">Kannst du alle Wörter finden?</p>
+                <p class="title">der - die - das</p>
+                <p class="title">Welcher Artikel gehört zu welchem Tier?</p>
             </div>
 
             <div class="ytgamevid" id="ytgamevid-l1s4">
@@ -363,7 +315,7 @@
                         </div>
                     </div>
                 </div>
-                <iframe class="hidden" id="l1s4-iframe" data-id="rYWPteZ9v6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="hidden" id="l1s4-iframe" data-id="YiRmEvL2AfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="gameframe" id="gameframeL1F4">
@@ -377,51 +329,58 @@
                         </p>
                     </div>
                 </div>
-                <iframe class="hidden" data-src="https://learningapps.org/watch?v=p6cr3kdjk21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+                <iframe class="hidden" data-src="https://learningapps.org/watch?v=ptj22p6na21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+                <div class="hidden">
+                    <p>&#8636; der</p>
+                    <p>&#8592; die</p>
+                    <p>&#8637; das</p>
+                </div>
             </div>
+
     <!--
         ################################################################################################
         #           S P I E L  5                                                                       #
         ################################################################################################
     -->
+    <div class="text">
+        <p class="title">Spiel Nr. 5</p>
+        <p class="title">Hörrätsel</p>
+        <p class="title">Hörst du die richtige Lösung?</p>
+    </div>
+
+    <div class="ytgamevid" id="ytgamevid-l1s5">
+        <div class="text" id="l1s5-text" onclick="getGameVideoConfirmation('l1s5');">
+            <div class="arrow-right"></div>
+            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
+        </div>
+        <div class="confirmation hidden" id="l1s5-confirmation">
             <div class="text">
-                <p class="title">Spiel Nr. 5</p>
-                <p class="title">Kreuzworträtsel</p>
-                <p class="title">Findest du die gesuchten Worte?</p>
+                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
+                <div class="btn" id="confirm" onclick="embedGameVideo('l1s5');">
+                    <p class="buttontext">Ja, bitte :)</p>
+                </div>
+                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l1s5');">
+                    <p class="buttontext">Nein, danke :(</p>
+                </div>
             </div>
+        </div>
+        <iframe class="hidden" id="l1s5-iframe" data-id="maAm3iuTsSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-            <div class="ytgamevid" id="ytgamevid-l1s5">
-                <div class="text" id="l1s5-text" onclick="getGameVideoConfirmation('l1s5');">
-                    <div class="arrow-right"></div>
-                    <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
-                </div>
-                <div class="confirmation hidden" id="l1s5-confirmation">
-                    <div class="text">
-                        <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
-                        <div class="btn" id="confirm" onclick="embedGameVideo('l1s5');">
-                            <p class="buttontext">Ja, bitte :)</p>
-                        </div>
-                        <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l1s5');">
-                            <p class="buttontext">Nein, danke :(</p>
-                        </div>
-                    </div>
-                </div>
-                <iframe class="hidden" id="l1s5-iframe" data-id="b3kdlI-Vqzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="gameframe" id="gameframeL1F5">
+        <div class="gameloader" onclick="loadGame('gameframeL1F5');">
+            <div class="text">
+                <p class="body">
+                    Klicke hier um das Spiel zu laden.
+                </p>
+                <p class="title">
+                    SPIEL STARTEN
+                </p>
             </div>
-
-            <div class="gameframe" id="gameframeL1F5">
-                <div class="gameloader" onclick="loadGame('gameframeL1F5');">
-                    <div class="text">
-                        <p class="body">
-                            Klicke hier um das Spiel zu laden.
-                        </p>
-                        <p class="title">
-                            SPIEL STARTEN
-                        </p>
-                    </div>
-                </div>
-                <iframe class="hidden" data-src="https://learningapps.org/watch?v=pjt5j58ot21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-            </div>
+        </div>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=prje24f2521" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    </div>
+    
     <!--
         ################################################################################################
         #           S P I E L  6                                                                       #
@@ -429,8 +388,8 @@
     -->
             <div class="text">
                 <p class="title">Spiel Nr. 6</p>
-                <p class="title">Blümchenraten</p>
-                <p class="title">Welches Tier suchen wir?</p>
+                <p class="title">Buchstabengitter</p>
+                <p class="title">Kannst du alle Wörter finden?</p>
             </div>
 
             <div class="ytgamevid" id="ytgamevid-l1s6">
@@ -449,7 +408,7 @@
                         </div>
                     </div>
                 </div>
-                <iframe class="hidden" id="l1s6-iframe" data-id="wygraHKwNmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="hidden" id="l1s6-iframe" data-id="rYWPteZ9v6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="gameframe" id="gameframeL1F6">
@@ -463,7 +422,7 @@
                         </p>
                     </div>
                 </div>
-                <iframe class="hidden" data-src="https://learningapps.org/watch?v=py5edyet321" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+                <iframe class="hidden" data-src="https://learningapps.org/watch?v=p6cr3kdjk21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
             </div>
     <!--
         ################################################################################################
@@ -472,8 +431,8 @@
     -->
             <div class="text">
                 <p class="title">Spiel Nr. 7</p>
-                <p class="title">Zuordnen</p>
-                <p class="title">Wo passen die Teile hin?</p>
+                <p class="title">Kreuzworträtsel</p>
+                <p class="title">Findest du die gesuchten Worte?</p>
             </div>
 
             <div class="ytgamevid" id="ytgamevid-l1s7">
@@ -492,11 +451,97 @@
                         </div>
                     </div>
                 </div>
-                <iframe class="hidden" id="l1s7-iframe" data-id="4lBokJC8rFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="hidden" id="l1s7-iframe" data-id="b3kdlI-Vqzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="gameframe" id="gameframeL1F7">
                 <div class="gameloader" onclick="loadGame('gameframeL1F7');">
+                    <div class="text">
+                        <p class="body">
+                            Klicke hier um das Spiel zu laden.
+                        </p>
+                        <p class="title">
+                            SPIEL STARTEN
+                        </p>
+                    </div>
+                </div>
+                <iframe class="hidden" data-src="https://learningapps.org/watch?v=pjt5j58ot21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+            </div>
+    <!--
+        ################################################################################################
+        #           S P I E L  8                                                                       #
+        ################################################################################################
+    -->
+            <div class="text">
+                <p class="title">Spiel Nr. 8</p>
+                <p class="title">Blümchenraten</p>
+                <p class="title">Welches Tier suchen wir?</p>
+            </div>
+
+            <div class="ytgamevid" id="ytgamevid-l1s8">
+                <div class="text" id="l1s8-text" onclick="getGameVideoConfirmation('l1s8');">
+                    <div class="arrow-right"></div>
+                    <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
+                </div>
+                <div class="confirmation hidden" id="l1s8-confirmation">
+                    <div class="text">
+                        <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
+                        <div class="btn" id="confirm" onclick="embedGameVideo('l1s8');">
+                            <p class="buttontext">Ja, bitte :)</p>
+                        </div>
+                        <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l1s8');">
+                            <p class="buttontext">Nein, danke :(</p>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="hidden" id="l1s8-iframe" data-id="wygraHKwNmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="gameframe" id="gameframeL1F8">
+                <div class="gameloader" onclick="loadGame('gameframeL1F8');">
+                    <div class="text">
+                        <p class="body">
+                            Klicke hier um das Spiel zu laden.
+                        </p>
+                        <p class="title">
+                            SPIEL STARTEN
+                        </p>
+                    </div>
+                </div>
+                <iframe class="hidden" data-src="https://learningapps.org/watch?v=py5edyet321" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+            </div>
+    <!--
+        ################################################################################################
+        #           S P I E L  9                                                                       #
+        ################################################################################################
+    -->
+            <div class="text">
+                <p class="title">Spiel Nr. 9</p>
+                <p class="title">Zuordnen</p>
+                <p class="title">Wo passen die Teile hin?</p>
+            </div>
+
+            <div class="ytgamevid" id="ytgamevid-l1s9">
+                <div class="text" id="l1s9-text" onclick="getGameVideoConfirmation('l1s9');">
+                    <div class="arrow-right"></div>
+                    <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
+                </div>
+                <div class="confirmation hidden" id="l1s9-confirmation">
+                    <div class="text">
+                        <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
+                        <div class="btn" id="confirm" onclick="embedGameVideo('l1s9');">
+                            <p class="buttontext">Ja, bitte :)</p>
+                        </div>
+                        <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l1s9');">
+                            <p class="buttontext">Nein, danke :(</p>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="hidden" id="l1s9-iframe" data-id="4lBokJC8rFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="gameframe" id="gameframeL1F9">
+                <div class="gameloader" onclick="loadGame('gameframeL1F9');">
                     <div class="text">
                         <p class="body">
                             Klicke hier um das Spiel zu laden.
@@ -526,59 +571,15 @@
 
     <!--
         ################################################################################################
-        #           S P I E L  0                                                                       #
+        #           S P I E L  1                                                                       #
         ################################################################################################
     -->
     <div class="text">
         <p class="title">Spiel Nr. 1</p>
-        <p class="title">Anlautton</p>
+        <p class="title">Paare finden</p>
         <p class="title">Kannst du alle Anlaute zuweisen?</p>
     </div>
     
-    <div class="ytgamevid" id="ytgamevid-l2s0">
-        <div class="text" id="l2s0-text" onclick="getGameVideoConfirmation('l2s0');">
-            <div class="arrow-right"></div>
-            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
-        </div>
-        <div class="confirmation hidden" id="l2s0-confirmation">
-            <div class="text">
-                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
-                <div class="btn" id="confirm" onclick="embedGameVideo('l2s0');">
-                    <p class="buttontext">Ja, bitte :)</p>
-                </div>
-                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l2s0');">
-                    <p class="buttontext">Nein, danke :(</p>
-                </div>
-            </div>
-        </div>
-        <iframe class="hidden" id="l2s0-iframe" data-id="1YBcg6m-l4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <div class="gameframe" id="gameframeL2F0">
-        <div class="gameloader" onclick="loadGame('gameframeL2F0');">
-            <div class="text">
-                <p class="body">
-                    Klicke hier um das Spiel zu laden.
-                </p>
-                <p class="title">
-                    SPIEL STARTEN
-                </p>
-            </div>
-        </div>
-        <iframe class="hidden" data-src="https://anlautton2.github.io/Anlautton2/" style="border:0px;width: 100%;height: 100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-    </div>
-
-<!--
-################################################################################################
-#           S P I E L  1                                                                       #
-################################################################################################
--->
-    <div class="text">
-        <p class="title">Spiel Nr. 1</p>
-        <p class="title">Schattenbilder</p>
-        <p class="title">Welches Tier kannst du sehen?</p>
-    </div>
-
     <div class="ytgamevid" id="ytgamevid-l2s1">
         <div class="text" id="l2s1-text" onclick="getGameVideoConfirmation('l2s1');">
             <div class="arrow-right"></div>
@@ -609,8 +610,9 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pjf8d3y2k21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe class="hidden" data-src="https://anlautton2.github.io/Anlautton2/" style="border:0px;width: 100%;height: 100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
+
 <!--
 ################################################################################################
 #           S P I E L  2                                                                       #
@@ -618,8 +620,8 @@
 -->
     <div class="text">
         <p class="title">Spiel Nr. 2</p>
-        <p class="title">Memory</p>
-        <p class="title">Welche Karten passen zusammen?</p>
+        <p class="title">Schattenbilder</p>
+        <p class="title">Welches Tier kannst du sehen?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l2s2">
@@ -638,7 +640,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l2s2-iframe" data-id="NJVGSiXg_C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l2s2-iframe" data-id="1YBcg6m-l4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL2F2">
@@ -652,7 +654,7 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pgeswfe3n21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pjf8d3y2k21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
 <!--
 ################################################################################################
@@ -661,8 +663,8 @@
 -->
     <div class="text">
         <p class="title">Spiel Nr. 3</p>
-        <p class="title">der - die - das</p>
-        <p class="title">Welcher Artikel gehört zu welchem Tier?</p>
+        <p class="title">Tier-Memory</p>
+        <p class="title">Welche Karten passen zusammen?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l2s3">
@@ -681,7 +683,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l2s3-iframe" data-id="YiRmEvL2AfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l2s3-iframe" data-id="NJVGSiXg_C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL2F3">
@@ -695,12 +697,7 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pi66u6x9a21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-        <div class="hidden">
-            <p>&#8636; der</p>
-            <p>&#8592; die</p>
-            <p>&#8637; das</p>
-        </div>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pgeswfe3n21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
 <!--
 ################################################################################################
@@ -709,8 +706,8 @@
 -->
     <div class="text">
         <p class="title">Spiel Nr. 4</p>
-        <p class="title">Buchstabengitter</p>
-        <p class="title">Kannst du alle Wörter finden?</p>
+        <p class="title">der - die - das</p>
+        <p class="title">Welcher Artikel gehört zu welchem Tier?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l2s4">
@@ -729,7 +726,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l2s4-iframe" data-id="rYWPteZ9v6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l2s4-iframe" data-id="YiRmEvL2AfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL2F4">
@@ -743,17 +740,22 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p5r6j0m5j21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pi66u6x9a21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <div class="hidden">
+            <p>&#8636; der</p>
+            <p>&#8592; die</p>
+            <p>&#8637; das</p>
+        </div>
     </div>
 <!--
-################################################################################################
-#           S P I E L  5                                                                       #
-################################################################################################
--->
+        ################################################################################################
+        #           S P I E L  5                                                                       #
+        ################################################################################################
+    -->
     <div class="text">
         <p class="title">Spiel Nr. 5</p>
-        <p class="title">Kreuzworträtsel</p>
-        <p class="title">Findest du die gesuchten Worte?</p>
+        <p class="title">Hörrätsel</p>
+        <p class="title">Hörst du die richtige Lösung?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l2s5">
@@ -772,7 +774,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l2s5-iframe" data-id="b3kdlI-Vqzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l2s5-iframe" data-id="maAm3iuTsSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL2F5">
@@ -786,7 +788,7 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p2vanvz4321" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p7zj4hr0c21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
 <!--
 ################################################################################################
@@ -795,8 +797,8 @@
 -->
     <div class="text">
         <p class="title">Spiel Nr. 6</p>
-        <p class="title">Blümchenraten</p>
-        <p class="title">Welches Tier suchen wir?</p>
+        <p class="title">Buchstabengitter</p>
+        <p class="title">Kannst du alle Wörter finden?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l2s6">
@@ -815,7 +817,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l2s6-iframe" data-id="wygraHKwNmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l2s6-iframe" data-id="rYWPteZ9v6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL2F6">
@@ -829,7 +831,7 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=paoyxx7ac21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p5r6j0m5j21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
 <!--
 ################################################################################################
@@ -838,8 +840,8 @@
 -->
     <div class="text">
         <p class="title">Spiel Nr. 7</p>
-        <p class="title">Zuordnen</p>
-        <p class="title">Wo passen die Teile hin?</p>
+        <p class="title">Kreuzworträtsel</p>
+        <p class="title">Findest du die gesuchten Worte?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l2s7">
@@ -858,11 +860,97 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l2s7-iframe" data-id="4lBokJC8rFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l2s7-iframe" data-id="b3kdlI-Vqzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL2F7">
         <div class="gameloader" onclick="loadGame('gameframeL2F7');">
+            <div class="text">
+                <p class="body">
+                    Klicke hier um das Spiel zu laden.
+                </p>
+                <p class="title">
+                    SPIEL STARTEN
+                </p>
+            </div>
+        </div>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p2vanvz4321" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    </div>
+<!--
+################################################################################################
+#           S P I E L  8                                                                       #
+################################################################################################
+-->
+    <div class="text">
+        <p class="title">Spiel Nr. 8</p>
+        <p class="title">Blümchenraten</p>
+        <p class="title">Welches Tier suchen wir?</p>
+    </div>
+
+    <div class="ytgamevid" id="ytgamevid-l2s8">
+        <div class="text" id="l2s8-text" onclick="getGameVideoConfirmation('l2s8');">
+            <div class="arrow-right"></div>
+            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
+        </div>
+        <div class="confirmation hidden" id="l2s8-confirmation">
+            <div class="text">
+                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
+                <div class="btn" id="confirm" onclick="embedGameVideo('l2s8');">
+                    <p class="buttontext">Ja, bitte :)</p>
+                </div>
+                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l2s8');">
+                    <p class="buttontext">Nein, danke :(</p>
+                </div>
+            </div>
+        </div>
+        <iframe class="hidden" id="l2s8-iframe" data-id="wygraHKwNmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="gameframe" id="gameframeL2F8">
+        <div class="gameloader" onclick="loadGame('gameframeL2F8');">
+            <div class="text">
+                <p class="body">
+                    Klicke hier um das Spiel zu laden.
+                </p>
+                <p class="title">
+                    SPIEL STARTEN
+                </p>
+            </div>
+        </div>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=paoyxx7ac21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    </div>
+<!--
+################################################################################################
+#           S P I E L  9                                                                       #
+################################################################################################
+-->
+    <div class="text">
+        <p class="title">Spiel Nr. 9</p>
+        <p class="title">Zuordnen</p>
+        <p class="title">Wo passen die Teile hin?</p>
+    </div>
+
+    <div class="ytgamevid" id="ytgamevid-l2s9">
+        <div class="text" id="l2s9-text" onclick="getGameVideoConfirmation('l2s9');">
+            <div class="arrow-right"></div>
+            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
+        </div>
+        <div class="confirmation hidden" id="l2s9-confirmation">
+            <div class="text">
+                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
+                <div class="btn" id="confirm" onclick="embedGameVideo('l2s9');">
+                    <p class="buttontext">Ja, bitte :)</p>
+                </div>
+                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l2s9');">
+                    <p class="buttontext">Nein, danke :(</p>
+                </div>
+            </div>
+        </div>
+        <iframe class="hidden" id="l2s9-iframe" data-id="4lBokJC8rFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="gameframe" id="gameframeL2F9">
+        <div class="gameloader" onclick="loadGame('gameframeL2F9');">
             <div class="text">
                 <p class="body">
                     Klicke hier um das Spiel zu laden.
@@ -892,59 +980,15 @@
 
 <!--
         ################################################################################################
-        #           S P I E L  0                                                                       #
+        #           S P I E L  1                                                                       #
         ################################################################################################
     -->
     <div class="text">
         <p class="title">Spiel Nr. 1</p>
-        <p class="title">Anlautton</p>
+        <p class="title">Paare finden</p>
         <p class="title">Kannst du alle Anlaute zuweisen?</p>
     </div>
     
-    <div class="ytgamevid" id="ytgamevid-l3s0">
-        <div class="text" id="l3s0-text" onclick="getGameVideoConfirmation('l3s0');">
-            <div class="arrow-right"></div>
-            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
-        </div>
-        <div class="confirmation hidden" id="l3s0-confirmation">
-            <div class="text">
-                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
-                <div class="btn" id="confirm" onclick="embedGameVideo('l3s0');">
-                    <p class="buttontext">Ja, bitte :)</p>
-                </div>
-                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l3s0');">
-                    <p class="buttontext">Nein, danke :(</p>
-                </div>
-            </div>
-        </div>
-        <iframe class="hidden" id="l3s0-iframe" data-id="1YBcg6m-l4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <div class="gameframe" id="gameframeL3F0">
-        <div class="gameloader" onclick="loadGame('gameframeL3F0');">
-            <div class="text">
-                <p class="body">
-                    Klicke hier um das Spiel zu laden.
-                </p>
-                <p class="title">
-                    SPIEL STARTEN
-                </p>
-            </div>
-        </div>
-        <iframe class="hidden" data-src="https://anlautton3.github.io/Anlautton3/" style="border:0px;width: 100%;height: 100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-    </div>
-
-<!--
-################################################################################################
-#           S P I E L  1                                                                       #
-################################################################################################
--->
-    <div class="text">
-        <p class="title">Spiel Nr. 1</p>
-        <p class="title">Schattenbilder</p>
-        <p class="title">Welches Tier kannst du sehen?</p>
-    </div>
-
     <div class="ytgamevid" id="ytgamevid-l3s1">
         <div class="text" id="l3s1-text" onclick="getGameVideoConfirmation('l3s1');">
             <div class="arrow-right"></div>
@@ -975,8 +1019,9 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pkwvcg3yk21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe class="hidden" data-src="https://anlautton3.github.io/Anlautton3/" style="border:0px;width: 100%;height: 100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
+
 <!--
 ################################################################################################
 #           S P I E L  2                                                                       #
@@ -984,8 +1029,8 @@
 -->
     <div class="text">
         <p class="title">Spiel Nr. 2</p>
-        <p class="title">Memory</p>
-        <p class="title">Welche Karten passen zusammen?</p>
+        <p class="title">Schattenbilder</p>
+        <p class="title">Welches Tier kannst du sehen?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l3s2">
@@ -1004,7 +1049,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l3s2-iframe" data-id="NJVGSiXg_C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l3s2-iframe" data-id="1YBcg6m-l4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL3F2">
@@ -1018,7 +1063,7 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p1mk9806j21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pkwvcg3yk21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
 <!--
 ################################################################################################
@@ -1027,8 +1072,8 @@
 -->
     <div class="text">
         <p class="title">Spiel Nr. 3</p>
-        <p class="title">der - die - das</p>
-        <p class="title">Welcher Artikel gehört zu welchem Tier?</p>
+        <p class="title">Tier-Memory</p>
+        <p class="title">Welche Karten passen zusammen?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l3s3">
@@ -1047,7 +1092,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l3s3-iframe" data-id="YiRmEvL2AfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l3s3-iframe" data-id="NJVGSiXg_C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL3F3">
@@ -1061,12 +1106,7 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pebhspa1521" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-        <div class="hidden">
-            <p>&#8636; der</p>
-            <p>&#8592; die</p>
-            <p>&#8637; das</p>
-        </div>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p1mk9806j21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
 <!--
 ################################################################################################
@@ -1075,8 +1115,8 @@
 -->
     <div class="text">
         <p class="title">Spiel Nr. 4</p>
-        <p class="title">Buchstabengitter</p>
-        <p class="title">Kannst du alle Wörter finden?</p>
+        <p class="title">der - die - das</p>
+        <p class="title">Welcher Artikel gehört zu welchem Tier?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l3s4">
@@ -1095,7 +1135,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l3s4-iframe" data-id="rYWPteZ9v6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l3s4-iframe" data-id="YiRmEvL2AfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL3F4">
@@ -1109,17 +1149,22 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=ppn9pb0b321" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pebhspa1521" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <div class="hidden">
+            <p>&#8636; der</p>
+            <p>&#8592; die</p>
+            <p>&#8637; das</p>
+        </div>
     </div>
 <!--
-################################################################################################
-#           S P I E L  5                                                                       #
-################################################################################################
--->
+        ################################################################################################
+        #           S P I E L  5                                                                       #
+        ################################################################################################
+    -->
     <div class="text">
         <p class="title">Spiel Nr. 5</p>
-        <p class="title">Kreuzworträtsel</p>
-        <p class="title">Findest du die gesuchten Worte?</p>
+        <p class="title">Hörrätsel</p>
+        <p class="title">Hörst du die richtige Lösung?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l3s5">
@@ -1138,7 +1183,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l3s5-iframe" data-id="b3kdlI-Vqzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l3s5-iframe" data-id="maAm3iuTsSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL3F5">
@@ -1152,7 +1197,7 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=phrub2v4t21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pasw9qk5v21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
 <!--
 ################################################################################################
@@ -1161,8 +1206,8 @@
 -->
     <div class="text">
         <p class="title">Spiel Nr. 6</p>
-        <p class="title">Blümchenraten</p>
-        <p class="title">Welches Tier suchen wir?</p>
+        <p class="title">Buchstabengitter</p>
+        <p class="title">Kannst du alle Wörter finden?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l3s6">
@@ -1181,7 +1226,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l3s6-iframe" data-id="wygraHKwNmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l3s6-iframe" data-id="rYWPteZ9v6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL3F6">
@@ -1195,7 +1240,7 @@
                 </p>
             </div>
         </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p7sbngebn21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=ppn9pb0b321" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>
 <!--
 ################################################################################################
@@ -1204,8 +1249,8 @@
 -->
     <div class="text">
         <p class="title">Spiel Nr. 7</p>
-        <p class="title">Zuordnen</p>
-        <p class="title">Wo passen die Teile hin?</p>
+        <p class="title">Kreuzworträtsel</p>
+        <p class="title">Findest du die gesuchten Worte?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l3s7">
@@ -1224,11 +1269,97 @@
                 </div>
             </div>
         </div>
-        <iframe class="hidden" id="l3s7-iframe" data-id="4lBokJC8rFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="hidden" id="l3s7-iframe" data-id="b3kdlI-Vqzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="gameframe" id="gameframeL3F7">
         <div class="gameloader" onclick="loadGame('gameframeL3F7');">
+            <div class="text">
+                <p class="body">
+                    Klicke hier um das Spiel zu laden.
+                </p>
+                <p class="title">
+                    SPIEL STARTEN
+                </p>
+            </div>
+        </div>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=phrub2v4t21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    </div>
+<!--
+################################################################################################
+#           S P I E L  8                                                                       #
+################################################################################################
+-->
+    <div class="text">
+        <p class="title">Spiel Nr. 8</p>
+        <p class="title">Blümchenraten</p>
+        <p class="title">Welches Tier suchen wir?</p>
+    </div>
+
+    <div class="ytgamevid" id="ytgamevid-l3s8">
+        <div class="text" id="l3s8-text" onclick="getGameVideoConfirmation('l3s8');">
+            <div class="arrow-right"></div>
+            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
+        </div>
+        <div class="confirmation hidden" id="l3s8-confirmation">
+            <div class="text">
+                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
+                <div class="btn" id="confirm" onclick="embedGameVideo('l3s8');">
+                    <p class="buttontext">Ja, bitte :)</p>
+                </div>
+                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l3s8');">
+                    <p class="buttontext">Nein, danke :(</p>
+                </div>
+            </div>
+        </div>
+        <iframe class="hidden" id="l3s8-iframe" data-id="wygraHKwNmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="gameframe" id="gameframeL3F8">
+        <div class="gameloader" onclick="loadGame('gameframeL3F8');">
+            <div class="text">
+                <p class="body">
+                    Klicke hier um das Spiel zu laden.
+                </p>
+                <p class="title">
+                    SPIEL STARTEN
+                </p>
+            </div>
+        </div>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p7sbngebn21" style="border:0px;width:100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    </div>
+<!--
+################################################################################################
+#           S P I E L  9                                                                       #
+################################################################################################
+-->
+    <div class="text">
+        <p class="title">Spiel Nr. 9</p>
+        <p class="title">Zuordnen</p>
+        <p class="title">Wo passen die Teile hin?</p>
+    </div>
+
+    <div class="ytgamevid" id="ytgamevid-l3s9">
+        <div class="text" id="l3s9-text" onclick="getGameVideoConfirmation('l3s9');">
+            <div class="arrow-right"></div>
+            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
+        </div>
+        <div class="confirmation hidden" id="l3s9-confirmation">
+            <div class="text">
+                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
+                <div class="btn" id="confirm" onclick="embedGameVideo('l3s9');">
+                    <p class="buttontext">Ja, bitte :)</p>
+                </div>
+                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l3s9');">
+                    <p class="buttontext">Nein, danke :(</p>
+                </div>
+            </div>
+        </div>
+        <iframe class="hidden" id="l3s9-iframe" data-id="4lBokJC8rFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="gameframe" id="gameframeL3F9">
+        <div class="gameloader" onclick="loadGame('gameframeL3F9');">
             <div class="text">
                 <p class="body">
                     Klicke hier um das Spiel zu laden.
@@ -1250,7 +1381,6 @@
     <footer>
         <a href="impressum.html">Impressum</a>
         <a href="datenschutz.html">Datenschutz</a>
-        <a href="kontakt.html">Kontakt</a>
     </footer>
 </body>
 </html>

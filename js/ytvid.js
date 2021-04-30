@@ -39,5 +39,5 @@ function getConfirmation() {
     ytbutton.classList.add("hidden");
     yttoast.classList.add("hidden");
     embedded.classList.remove("hidden");
-    embedded.setAttribute("src", "https://www.youtube-nocookie.com/embed/4E0dwFS72gk");
+    embedded.setAttribute("src", "https://www.youtube-nocookie.com/embed/iOtQYLJnYGg");
  }
