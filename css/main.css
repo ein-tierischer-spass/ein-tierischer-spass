@@ -533,12 +533,12 @@ main #level1 {
   background: var(--clr-turquose);
 }
 
-main #level1 #gameframeL1F0 {
+main #level1 #gameframeL1F1 {
   width: 1000px;
   height: 1000px;
 }
 
-main #level1 #gameframeL1F0 .gameloader {
+main #level1 #gameframeL1F1 .gameloader {
   height: 1000px;
 }
 
@@ -606,12 +606,12 @@ main #level2 {
   background: var(--clr-yellow);
 }
 
-main #level2 #gameframeL2F0 {
+main #level2 #gameframeL2F1 {
   width: 1000px;
   height: 1000px;
 }
 
-main #level2 #gameframeL2F0 .gameloader {
+main #level2 #gameframeL2F1 .gameloader {
   height: 1000px;
 }
 
@@ -683,12 +683,12 @@ main #level3 {
   background: var(--clr-rose);
 }
 
-main #level3 #gameframeL3F0 {
+main #level3 #gameframeL3F1 {
   width: 1000px;
   height: 1000px;
 }
 
-main #level3 #gameframeL3F0 .gameloader {
+main #level3 #gameframeL3F1 .gameloader {
   height: 1000px;
 }
 
