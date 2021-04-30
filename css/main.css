@@ -546,22 +546,22 @@ main #level1 #gameframeL1F2 {
   width: 1000px;
 }
 
-main #level1 #gameframeL1F2 {
+main #level1 #gameframeL1F3 {
   width: 1000px;
 }
 
-main #level1 #gameframeL1F3 {
+main #level1 #gameframeL1F4 {
   width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main #level1 #gameframeL1F3 iframe {
+main #level1 #gameframeL1F4 iframe {
   height: 1010px;
 }
 
-main #level1 #gameframeL1F3 .helper {
+main #level1 #gameframeL1F4 .helper {
   font-size: 4rem;
   display: -ms-grid;
   display: grid;
@@ -570,7 +570,7 @@ main #level1 #gameframeL1F3 .helper {
   left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
-main #level1 #gameframeL1F3 .helper p {
+main #level1 #gameframeL1F4 .helper p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -619,26 +619,26 @@ main #level2 #gameframeL2F2 {
   width: 1000px;
 }
 
-main #level2 #gameframeL2F2 {
+main #level2 #gameframeL2F3 {
   width: 1000px;
 }
 
-main #level2 #gameframeL2F2 iframe {
+main #level2 #gameframeL2F3 iframe {
   height: 540px;
 }
 
-main #level2 #gameframeL2F3 {
+main #level2 #gameframeL2F4 {
   width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main #level2 #gameframeL2F3 iframe {
+main #level2 #gameframeL2F4 iframe {
   height: 1010px;
 }
 
-main #level2 #gameframeL2F3 .helper {
+main #level2 #gameframeL2F4 .helper {
   font-size: 4rem;
   display: -ms-grid;
   display: grid;
@@ -647,7 +647,7 @@ main #level2 #gameframeL2F3 .helper {
   left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
-main #level2 #gameframeL2F3 .helper p {
+main #level2 #gameframeL2F4 .helper p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -696,26 +696,26 @@ main #level3 #gameframeL3F2 {
   width: 1000px;
 }
 
-main #level3 #gameframeL3F2 {
+main #level3 #gameframeL3F3 {
   width: 1000px;
 }
 
-main #level3 #gameframeL3F2 iframe {
+main #level3 #gameframeL3F3 iframe {
   height: 550px;
 }
 
-main #level3 #gameframeL3F3 {
+main #level3 #gameframeL3F4 {
   width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main #level3 #gameframeL3F3 iframe {
+main #level3 #gameframeL3F4 iframe {
   height: 1010px;
 }
 
-main #level3 #gameframeL3F3 .helper {
+main #level3 #gameframeL3F4 .helper {
   font-size: 4rem;
   display: -ms-grid;
   display: grid;
@@ -724,7 +724,7 @@ main #level3 #gameframeL3F3 .helper {
   left: calc(((100% - 1000px) / 2) + 1000px);
 }
 
-main #level3 #gameframeL3F3 .helper p {
+main #level3 #gameframeL3F4 .helper p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
