@@ -47,8 +47,9 @@
                      alt="Banner"/>
             </picture>
             <div class="text">
-                <p class="title">HALLO UND WILLKOMMEN BEI: "EIN TIERISCHER SPAß!"</p>
-                <p class="body">Auf dieser Seite möchten wir dir ein paar <strong>tolle Tiere</strong> vorstellen. Dazu musst du einige <strong>Rätsel</strong> lösen und spannende <strong>Spiele</strong> spielen. Es gibt <strong>drei Schwierigkeitsgrade</strong>, in denen jeweils <strong>9 Spiele</strong> zu finden sind. Nach jedem Spiel erhältst du einen Link, der dich zu einem <strong>geheimen Puzzleteil</strong> führt. Wenn du alle Spiele erfolgreich gemeistert hast, wartet auf dich ein richtiger Knobelspaß. Lass dich überraschen! Wir wünschen dir <strong>viel Spaß</strong> beim Entdecken und Lernen!</p>
+                <p class="title"> Hallo und Willkommen bei: „Ein tierischer Spaß!"</p>
+                <p class="body">Auf dieser Seite möchten wir dir ein paar <strong>tolle Tiere</strong> vorstellen. Dazu musst du einige <strong>Rätsel</strong> lösen und spannende <strong>Spiele</strong> spielen. Es gibt <strong>drei Schwierigkeitsgrade</strong>, in denen jeweils <strong>9 Spiele</strong> zu finden sind. Nach jedem Spiel erhältst du einen Link, der dich zu einem <strong>geheimen Puzzleteil</strong> führt. Wenn du alle Spiele erfolgreich gemeistert hast, wartet auf dich ein richtiger Knobelspaß. Lass dich überraschen!</p>
+                <p class="body">Wir wünschen dir <strong>viel Spaß</strong> beim Entdecken und Lernen!</p>
                 <p class="greetings">Deine Lizzy, deine Nora & dein Bryan</p>
             </div>
         </section>
@@ -138,8 +139,8 @@
                     alt="Hintergrundblasen"/>
             </picture>
             <div class="text" id="aboutustext">
-                <p class="title">ÜBER UNS</p>
-                <p class="body">Wir sind <strong>Nora</strong>, <strong>Bryan</strong> und <strong>Lizzy</strong> und studieren zusammen an der <strong>FOM Berlin</strong>.</p>
+                <p class="title">Über uns</p>
+                <p class="body">Wir sind <strong>Lizzy</strong>, <strong>Nora</strong> und <strong>Bryan</strong> und studieren zusammen an der <strong>FOM Berlin</strong>.</p>
                 <p class="body">Seit dem Sommer 2020 begeistert uns das Fachgebiet der Pädagogik und des digitalen Lernens. Bereits vor dem Studium hat Bryan als Grundschullehrer in Luxemburg gearbeitet und viel Erfahrung durch die Arbeit mit Kindern gesammelt. Nora ist unsere Gaming-Expertin. Sie weiß, worauf es bei der „User Experience" ankommt. Lizzy ist für die Optik zuständig. Sie arbeitete als Grafikerin und hat viel Erfahrung im Bereich der Gestaltung und Konzeption von Medien. Zusammen haben wir dieses Projekt entwickelt. Wir würden uns über den einen oder anderen Austausch sehr freuen und warten gespannt auf dein Feedback! Viel Spaß beim Entdecken und Lernen!</p>
             </div>
         </section>
@@ -341,9 +342,52 @@
         ################################################################################################
         #           S P I E L  5                                                                       #
         ################################################################################################
+      -->
+            <div class="text">
+                <p class="title">Spiel Nr. 5</p>
+                <p class="title">Buchstabengitter</p>
+                <p class="title">Kannst du alle Wörter finden?</p>
+            </div>
+
+            <div class="ytgamevid" id="ytgamevid-l1s6">
+                <div class="text" id="l1s6-text" onclick="getGameVideoConfirmation('l1s6');">
+                    <div class="arrow-right"></div>
+                    <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
+                </div>
+                <div class="confirmation hidden" id="l1s6-confirmation">
+                    <div class="text">
+                        <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
+                        <div class="btn" id="confirm" onclick="embedGameVideo('l1s6');">
+                            <p class="buttontext">Ja, bitte :)</p>
+                        </div>
+                        <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l1s6');">
+                            <p class="buttontext">Nein, danke :(</p>
+                        </div>
+                    </div>
+                </div>
+                <iframe class="hidden" id="l1s6-iframe" data-id="rYWPteZ9v6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="gameframe" id="gameframeL1F6">
+                <div class="gameloader" onclick="loadGame('gameframeL1F6');">
+                    <div class="text">
+                        <p class="body">
+                            Klicke hier um das Spiel zu laden.
+                        </p>
+                        <p class="title">
+                            SPIEL STARTEN
+                        </p>
+                    </div>
+                </div>
+                <iframe class="hidden" data-src="https://learningapps.org/watch?v=p6cr3kdjk21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+            </div>
+    <!--
+        ################################################################################################
+        #           S P I E L  6                                                                       #
+        ################################################################################################
     -->
     <div class="text">
-        <p class="title">Spiel Nr. 5</p>
+        <p class="title">Spiel Nr. 6</p>
         <p class="title">Tier-Quiz</p>
         <p class="title">Hörst du die richtige Lösung?</p>
     </div>
@@ -383,56 +427,13 @@
     
     <!--
         ################################################################################################
-        #           S P I E L  6                                                                       #
-        ################################################################################################
-    -->
-            <div class="text">
-                <p class="title">Spiel Nr. 6</p>
-                <p class="title">Buchstabengitter</p>
-                <p class="title">Kannst du alle Wörter finden?</p>
-            </div>
-
-            <div class="ytgamevid" id="ytgamevid-l1s6">
-                <div class="text" id="l1s6-text" onclick="getGameVideoConfirmation('l1s6');">
-                    <div class="arrow-right"></div>
-                    <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
-                </div>
-                <div class="confirmation hidden" id="l1s6-confirmation">
-                    <div class="text">
-                        <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
-                        <div class="btn" id="confirm" onclick="embedGameVideo('l1s6');">
-                            <p class="buttontext">Ja, bitte :)</p>
-                        </div>
-                        <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l1s6');">
-                            <p class="buttontext">Nein, danke :(</p>
-                        </div>
-                    </div>
-                </div>
-                <iframe class="hidden" id="l1s6-iframe" data-id="rYWPteZ9v6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-            <div class="gameframe" id="gameframeL1F6">
-                <div class="gameloader" onclick="loadGame('gameframeL1F6');">
-                    <div class="text">
-                        <p class="body">
-                            Klicke hier um das Spiel zu laden.
-                        </p>
-                        <p class="title">
-                            SPIEL STARTEN
-                        </p>
-                    </div>
-                </div>
-                <iframe class="hidden" data-src="https://learningapps.org/watch?v=p6cr3kdjk21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-            </div>
-    <!--
-        ################################################################################################
         #           S P I E L  7                                                                       #
         ################################################################################################
     -->
             <div class="text">
                 <p class="title">Spiel Nr. 7</p>
                 <p class="title">Kreuzworträtsel</p>
-                <p class="title">Findest du die gesuchten Worte?</p>
+                <p class="title">Findest du alle Tiernamen?</p>
             </div>
 
             <div class="ytgamevid" id="ytgamevid-l1s7">
@@ -751,9 +752,52 @@
         ################################################################################################
         #           S P I E L  5                                                                       #
         ################################################################################################
-    -->
+-->
     <div class="text">
         <p class="title">Spiel Nr. 5</p>
+        <p class="title">Buchstabengitter</p>
+        <p class="title">Kannst du alle Wörter finden?</p>
+    </div>
+
+    <div class="ytgamevid" id="ytgamevid-l2s6">
+        <div class="text" id="l2s6-text" onclick="getGameVideoConfirmation('l2s6');">
+            <div class="arrow-right"></div>
+            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
+        </div>
+        <div class="confirmation hidden" id="l2s6-confirmation">
+            <div class="text">
+                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
+                <div class="btn" id="confirm" onclick="embedGameVideo('l2s6');">
+                    <p class="buttontext">Ja, bitte :)</p>
+                </div>
+                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l2s6');">
+                    <p class="buttontext">Nein, danke :(</p>
+                </div>
+            </div>
+        </div>
+        <iframe class="hidden" id="l2s6-iframe" data-id="rYWPteZ9v6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="gameframe" id="gameframeL2F6">
+        <div class="gameloader" onclick="loadGame('gameframeL2F6');">
+            <div class="text">
+                <p class="body">
+                    Klicke hier um das Spiel zu laden.
+                </p>
+                <p class="title">
+                    SPIEL STARTEN
+                </p>
+            </div>
+        </div>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p5r6j0m5j21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    </div>
+<!--  
+################################################################################################
+#           S P I E L  6                                                                       #
+################################################################################################
+  -->
+    <div class="text">
+        <p class="title">Spiel Nr. 6</p>
         <p class="title">Tier-Quiz</p>
         <p class="title">Hörst du die richtige Lösung?</p>
     </div>
@@ -792,56 +836,13 @@
     </div>
 <!--
 ################################################################################################
-#           S P I E L  6                                                                       #
-################################################################################################
--->
-    <div class="text">
-        <p class="title">Spiel Nr. 6</p>
-        <p class="title">Buchstabengitter</p>
-        <p class="title">Kannst du alle Wörter finden?</p>
-    </div>
-
-    <div class="ytgamevid" id="ytgamevid-l2s6">
-        <div class="text" id="l2s6-text" onclick="getGameVideoConfirmation('l2s6');">
-            <div class="arrow-right"></div>
-            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
-        </div>
-        <div class="confirmation hidden" id="l2s6-confirmation">
-            <div class="text">
-                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
-                <div class="btn" id="confirm" onclick="embedGameVideo('l2s6');">
-                    <p class="buttontext">Ja, bitte :)</p>
-                </div>
-                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l2s6');">
-                    <p class="buttontext">Nein, danke :(</p>
-                </div>
-            </div>
-        </div>
-        <iframe class="hidden" id="l2s6-iframe" data-id="rYWPteZ9v6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <div class="gameframe" id="gameframeL2F6">
-        <div class="gameloader" onclick="loadGame('gameframeL2F6');">
-            <div class="text">
-                <p class="body">
-                    Klicke hier um das Spiel zu laden.
-                </p>
-                <p class="title">
-                    SPIEL STARTEN
-                </p>
-            </div>
-        </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=p5r6j0m5j21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-    </div>
-<!--
-################################################################################################
 #           S P I E L  7                                                                       #
 ################################################################################################
 -->
     <div class="text">
         <p class="title">Spiel Nr. 7</p>
         <p class="title">Kreuzworträtsel</p>
-        <p class="title">Findest du die gesuchten Worte?</p>
+        <p class="title">Findest du alle Tiernamen?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l2s7">
@@ -1160,52 +1161,9 @@
         ################################################################################################
         #           S P I E L  5                                                                       #
         ################################################################################################
-    -->
-    <div class="text">
-        <p class="title">Spiel Nr. 5</p>
-        <p class="title">Tier-Quiz</p>
-        <p class="title">Hörst du die richtige Lösung?</p>
-    </div>
-
-    <div class="ytgamevid" id="ytgamevid-l3s5">
-        <div class="text" id="l3s5-text" onclick="getGameVideoConfirmation('l3s5');">
-            <div class="arrow-right"></div>
-            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
-        </div>
-        <div class="confirmation hidden" id="l3s5-confirmation">
-            <div class="text">
-                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
-                <div class="btn" id="confirm" onclick="embedGameVideo('l3s5');">
-                    <p class="buttontext">Ja, bitte :)</p>
-                </div>
-                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l3s5');">
-                    <p class="buttontext">Nein, danke :(</p>
-                </div>
-            </div>
-        </div>
-        <iframe class="hidden" id="l3s5-iframe" data-id="maAm3iuTsSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <div class="gameframe" id="gameframeL3F5">
-        <div class="gameloader" onclick="loadGame('gameframeL3F5');">
-            <div class="text">
-                <p class="body">
-                    Klicke hier um das Spiel zu laden.
-                </p>
-                <p class="title">
-                    SPIEL STARTEN
-                </p>
-            </div>
-        </div>
-        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pasw9qk5v21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-    </div>
-<!--
-################################################################################################
-#           S P I E L  6                                                                       #
-################################################################################################
 -->
     <div class="text">
-        <p class="title">Spiel Nr. 6</p>
+        <p class="title">Spiel Nr. 5</p>
         <p class="title">Buchstabengitter</p>
         <p class="title">Kannst du alle Wörter finden?</p>
     </div>
@@ -1244,13 +1202,56 @@
     </div>
 <!--
 ################################################################################################
+#           S P I E L  6                                                                       #
+################################################################################################
+    -->
+    <div class="text">
+        <p class="title">Spiel Nr. 6</p>
+        <p class="title">Tier-Quiz</p>
+        <p class="title">Hörst du die richtige Lösung?</p>
+    </div>
+
+    <div class="ytgamevid" id="ytgamevid-l3s5">
+        <div class="text" id="l3s5-text" onclick="getGameVideoConfirmation('l3s5');">
+            <div class="arrow-right"></div>
+            <p class="body">Dieses Video erklärt dir, wie das Spiel funktioniert.</p>
+        </div>
+        <div class="confirmation hidden" id="l3s5-confirmation">
+            <div class="text">
+                <p class="body">Möchtest du dieses Video von YouTube angucken? YouTube erhebt eventuell Nutzungsstatistiken.</p>
+                <div class="btn" id="confirm" onclick="embedGameVideo('l3s5');">
+                    <p class="buttontext">Ja, bitte :)</p>
+                </div>
+                <div class="btn" id="abort" onclick="hideGameVideoConfirmationToast('l3s5');">
+                    <p class="buttontext">Nein, danke :(</p>
+                </div>
+            </div>
+        </div>
+        <iframe class="hidden" id="l3s5-iframe" data-id="maAm3iuTsSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="gameframe" id="gameframeL3F5">
+        <div class="gameloader" onclick="loadGame('gameframeL3F5');">
+            <div class="text">
+                <p class="body">
+                    Klicke hier um das Spiel zu laden.
+                </p>
+                <p class="title">
+                    SPIEL STARTEN
+                </p>
+            </div>
+        </div>
+        <iframe class="hidden" data-src="https://learningapps.org/watch?v=pasw9qk5v21" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    </div>
+<!--
+################################################################################################
 #           S P I E L  7                                                                       #
 ################################################################################################
 -->
     <div class="text">
         <p class="title">Spiel Nr. 7</p>
         <p class="title">Kreuzworträtsel</p>
-        <p class="title">Findest du die gesuchten Worte?</p>
+        <p class="title">Findest du alle Tiernamen?</p>
     </div>
 
     <div class="ytgamevid" id="ytgamevid-l3s7">
