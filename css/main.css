@@ -443,7 +443,6 @@ main #gamelevel #bottomright {
 }
 
 main #gamelevel #gameleveltext {
-  text-transform: uppercase;
   margin: 0 auto;
   height: -webkit-min-content;
   height: -moz-min-content;
