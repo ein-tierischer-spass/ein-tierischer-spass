@@ -799,9 +799,18 @@ footer a:active, footer a:hover {
   text-decoration: underline;
 }
 
-footer #copyright {
+footer .copyright {
   font-size: 1rem;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+footer #copyright-p {
+  color: var(--clr-text-dark);
+  font-weight: bold;
+}
+
+footer #copyright-p a {
+  margin: 0 0.5em;
 }
 /*# sourceMappingURL=main.css.map */

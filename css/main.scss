@@ -757,9 +757,18 @@ footer {
         }
     }
 
-    #copyright {
+    .copyright {
         font-size: 1rem;
         margin-top: auto;
         margin-bottom: auto;
+    }
+
+    #copyright-p {
+        color: var(--clr-text-dark);
+        font-weight: bold;
+
+        a {
+            margin: 0 0.5em;
+        }
     }
 }
